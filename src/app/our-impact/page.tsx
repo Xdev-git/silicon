@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Our Impact – Values & Sustainability | Silicon",
+  title: "Our Impact €“ Values & Sustainability | Silicon",
   description:
     "Discover Silicon's commitment to values, vision, mission, sustainability, and creating a positive impact in Indore.",
 };
@@ -82,11 +82,11 @@ export default function OurImpactPage() {
         breadcrumbs={[{ label: "Our Impact" }]}
       />
 
-      {/* ── Our Values ──────────────────────────────────────────── */}
+      {/* ”€”€ Our Values ”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ */}
       <section className="py-20 px-6 md:px-12 lg:px-24 text-center bg-[#F3EEEB] border-b border-[#413F4C]/10">
-        <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Our Guiding Principles</p>
+        <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Our Guiding Principles</p>
         <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#413F4C] mb-4">
-          Our <span className="text-[#BC9F81]">Values</span>
+          Our <span className="text-[#020D2F]">Values</span>
         </h2>
         <div className="w-10 h-[2px] bg-[#413F4C] mx-auto mb-6"></div>
         <p className="text-[#413F4C]/70 font-medium max-w-2xl mx-auto">
@@ -95,11 +95,11 @@ export default function OurImpactPage() {
         </p>
       </section>
 
-      {/* ── Vision / Image / Mission 3-panel — constrained width ── */}
+      {/* ”€”€ Vision / Image / Mission 3-panel €” constrained width ”€”€ */}
       <section className="py-16 px-6 md:px-12 lg:px-24 bg-white">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-0 border border-[#413F4C]/10">
           {/* Vision */}
-          <div className="bg-gradient-to-br from-[#BC9F81] to-[#AD9266] text-[#413F4C] px-8 py-10 flex flex-col justify-center">
+          <div className="bg-gradient-to-br from-[#020D2F] to-[#413F4C] text-white px-8 py-10 flex flex-col justify-center">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#413F4C]/60 mb-3">
               Our Vision
             </p>
@@ -131,12 +131,12 @@ export default function OurImpactPage() {
         </div>
       </section>
 
-      {/* ── Values that shape us ─────────────────────────────────── */}
+      {/* ”€”€ Values that shape us ”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ */}
       <section className="py-20 px-6 md:px-12 lg:px-24 bg-[#F3EEEB]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">What Drives Us</p>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#413F4C] mb-4">Values That <span className="text-[#BC9F81]">Shape Us</span></h2>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">What Drives Us</p>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#413F4C] mb-4">Values That <span className="text-[#020D2F]">Shape Us</span></h2>
             <div className="w-10 h-[2px] bg-[#413F4C] mx-auto" />
           </div>
 
@@ -144,11 +144,11 @@ export default function OurImpactPage() {
             {values.map((v, i) => {
               const Icon = v.icon;
               return (
-                <div key={i} className="flex flex-col gap-3 group bg-white p-6 border border-[#413F4C]/10 hover:-translate-y-2 transition-all duration-300 hover:border-[#BC9F81]/40 hover:shadow-sm">
+                <div key={i} className="flex flex-col gap-3 group bg-white p-6 border border-[#413F4C]/10 hover:-translate-y-2 transition-all duration-300 hover:border-[#020D2F]/40 hover:shadow-sm">
                   <div className="w-10 h-10 flex items-center justify-center bg-[#F3EEEB] rounded-full mb-1">
-                    <Icon className="w-5 h-5 text-[#BC9F81] group-hover:scale-110 transition-transform duration-300" strokeWidth={1.5} />
+                    <Icon className="w-5 h-5 text-[#020D2F] group-hover:scale-110 transition-transform duration-300" strokeWidth={1.5} />
                   </div>
-                  <h3 className="text-sm font-bold text-[#413F4C] group-hover:text-[#BC9F81] transition-colors">{v.title}</h3>
+                  <h3 className="text-sm font-bold text-[#413F4C] group-hover:text-[#020D2F] transition-colors">{v.title}</h3>
                   <p className="text-xs text-[#413F4C]/70 font-medium leading-snug">{v.desc}</p>
                 </div>
               );
@@ -157,21 +157,21 @@ export default function OurImpactPage() {
         </div>
       </section>
 
-      {/* ── Creating a positive impact ───────────────────────────── */}
+      {/* ”€”€ Creating a positive impact ”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ */}
       <section className="py-20 px-6 md:px-12 lg:px-24 bg-[#413F4C] text-center">
         <div className="max-w-3xl mx-auto space-y-6">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Our Purpose</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Our Purpose</p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white">
-            Creating a <span className="text-[#BC9F81]">Positive Impact</span>
+            Creating a <span className="text-[#020D2F]">Positive Impact</span>
           </h2>
-          <div className="w-10 h-[2px] bg-[#BC9F81] mx-auto"></div>
+          <div className="w-10 h-[2px] bg-[#020D2F] mx-auto"></div>
           <p className="text-white/70 font-medium leading-snug">
             Silicon is committed to using our capabilities to create a positive impact on the
             environment and on society. As we grow, so does the scale of the impact we can make.
           </p>
           <p className="text-white/70 font-medium leading-snug">
             Through the{" "}
-            <strong className="text-[#BC9F81]">Silicon Foundation</strong>, we implement
+            <strong className="text-[#020D2F]">Silicon Foundation</strong>, we implement
             transformative projects in Education, Women's Empowerment, and Sustainable Urbanization
             to create a positive impact on the environment and society. We are recognized in
             sustainability rankings for the work we do to address the environmental impact of the
@@ -180,13 +180,13 @@ export default function OurImpactPage() {
         </div>
       </section>
 
-      {/* ── Environmental Impact ─────────────────────────────────── */}
+      {/* ”€”€ Environmental Impact ”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ */}
       <section className="py-20 px-6 md:px-12 lg:px-24 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Sustainability</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Sustainability</p>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#413F4C] mb-4">
-              Environmental <span className="text-[#BC9F81]">Impact</span>
+              Environmental <span className="text-[#020D2F]">Impact</span>
             </h2>
             <div className="w-10 h-[2px] bg-[#413F4C] mx-auto mb-6"></div>
             <p className="text-[#413F4C]/70 font-medium max-w-2xl mx-auto leading-snug">
@@ -215,3 +215,6 @@ export default function OurImpactPage() {
     </main>
   );
 }
+
+
+

@@ -56,14 +56,14 @@ export function NewsCarousel() {
   const scrollNext = useCallback(() => { if (emblaApi) emblaApi.scrollNext(); }, [emblaApi]);
 
   return (
-    <section className="py-20 md:py-28 bg-white dark:bg-zinc-900 ">
+    <section className="py-20 md:py-28 bg-white ">
       <div className="container mx-auto px-6 lg:px-12">
 
         {/* Header */}
         <div className="flex flex-col md:flex-row items-end justify-between mb-16">
           <div className="text-left">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#413F4C] mb-4">
-              Latest from <span className="text-[#BC9F81]">Our Blog</span>
+              Latest from <span className="text-[#020D2F]">Our Blog</span>
             </h2>
             <div className="w-10 h-[2px] bg-[#413F4C]"></div>
           </div>
@@ -93,14 +93,14 @@ export function NewsCarousel() {
                         fill
                         className="object-cover transition-transform duration-1000 group-hover/card:scale-110"
                       />
-                      <div className="absolute inset-0 bg-black/5 group-hover/card:bg-transparent transition-colors duration-500"></div>
-                      <div className="absolute top-4 left-4 bg-[#BC9F81] text-[#413F4C] text-[12px] font-bold uppercase tracking-tight px-3 py-1.5 shadow-md">
+                      <div className="absolute inset-0 bg-white/10 group-hover/card:bg-transparent transition-colors duration-500"></div>
+                      <div className="absolute top-4 left-4 bg-[#020D2F] text-white text-[12px] font-bold uppercase tracking-tight px-3 py-1.5 shadow-md">
                         {article.date}
                       </div>
                     </div>
                     {/* Content */}
                     <div className="flex flex-col flex-1 p-6 md:p-8 bg-white border-t-0">
-                      <h3 className="text-xl font-bold text-[#413F4C] leading-snug mb-4 line-clamp-2 group-hover/card:text-[#BC9F81] transition-colors duration-300">
+                      <h3 className="text-xl font-bold text-[#413F4C] leading-snug mb-4 line-clamp-2 group-hover/card:text-[#020D2F] transition-colors duration-300">
                         {article.title}
                       </h3>
                       <p className="text-md text-[#413F4C]/70 font-medium leading-snug line-clamp-3 mb-6 flex-1">
@@ -109,10 +109,10 @@ export function NewsCarousel() {
                       <div className="flex items-center gap-2 mt-auto">
                         <Link
                           href={article.slug}
-                          className="text-xs font-bold uppercase tracking-widest text-[#413F4C] group-hover/card:text-[#BC9F81] transition-colors w-fit custom-underline relative"
+                          className="text-xs font-bold uppercase tracking-widest text-[#413F4C] group-hover/card:text-[#020D2F] transition-colors w-fit custom-underline relative"
                         >
                           Read Article →
-                          <span className="absolute -bottom-1 left-0 w-0 h-px bg-[#BC9F81] group-hover/card:w-full transition-all duration-300"></span>
+                          <span className="absolute -bottom-1 left-0 w-0 h-px bg-[#020D2F] group-hover/card:w-full transition-all duration-300"></span>
                         </Link>
                       </div>
                     </div>
@@ -125,14 +125,14 @@ export function NewsCarousel() {
           {/* Nav arrows */}
           <button
             onClick={scrollPrev}
-            className="absolute -left-4 top-[35%] -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white border border-[#413F4C]/10 shadow-lg rounded-full text-[#413F4C] hover:bg-[#BC9F81] hover:text-white hover:border-[#BC9F81] transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
+            className="absolute -left-4 top-[35%] -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white border border-[#413F4C]/10 shadow-lg rounded-full text-[#413F4C] hover:bg-[#020D2F] hover:text-white hover:border-[#020D2F] transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
             aria-label="Previous"
           >
             <ChevronLeft className="w-5 h-5" strokeWidth={2} />
           </button>
           <button
             onClick={scrollNext}
-            className="absolute -right-4 top-[35%] -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white border border-[#413F4C]/10 shadow-lg rounded-full text-[#413F4C] hover:bg-[#BC9F81] hover:text-white hover:border-[#BC9F81] transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
+            className="absolute -right-4 top-[35%] -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-white border border-[#413F4C]/10 shadow-lg rounded-full text-[#413F4C] hover:bg-[#020D2F] hover:text-white hover:border-[#020D2F] transition-all opacity-0 group-hover:opacity-100 hover:scale-110"
             aria-label="Next"
           >
             <ChevronRight className="w-5 h-5" strokeWidth={2} />
@@ -148,3 +148,7 @@ export function NewsCarousel() {
     </section>
   );
 }
+
+
+
+

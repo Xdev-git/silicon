@@ -37,11 +37,11 @@ export default function ContactPage() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/60" />
         <div className="relative z-10 max-w-3xl">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Silicon Real Estate</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Silicon Real Estate</p>
           <h1 className="text-white uppercase tracking-widest font-bold text-3xl md:text-5xl drop-shadow-lg mb-4">
             Contact Us
           </h1>
-          <div className="w-12 h-[2px] mx-auto bg-[#BC9F81] mb-6"></div>
+          <div className="w-12 h-[2px] mx-auto bg-[#020D2F] mb-6"></div>
           <p className="text-white/80 font-medium text-base md:text-lg leading-snug max-w-2xl mx-auto">
             Our businesses are designed and built with people at the centre.<br className="hidden md:block" />
             Whether you have a question, a requirement, or want to explore an opportunity, we would love to connect.
@@ -52,9 +52,9 @@ export default function ContactPage() {
       {/* Breadcrumbs */}
       <div className="max-w-6xl mx-auto px-6 md:px-12 pt-8">
         <nav className="flex flex-wrap items-center text-sm text-[#413F4C]/60 font-medium">
-          <Link href="/" className="hover:text-[#BC9F81] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#020D2F] transition-colors">Home</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-[#BC9F81] font-bold">Contact Us</span>
+          <span className="text-[#020D2F] font-bold">Contact Us</span>
         </nav>
       </div>
 
@@ -69,7 +69,7 @@ export default function ContactPage() {
             <div>
               <h3 className="text-xs font-bold uppercase tracking-widest text-[#413F4C]/60 mb-4">Head Office</h3>
               <div className="flex gap-4 items-start">
-                <span className="mt-1 w-9 h-9 rounded-full bg-[#BC9F81]/20 flex items-center justify-center text-[#BC9F81] shrink-0">
+                <span className="mt-1 w-9 h-9 rounded-full bg-[#020D2F]/20 flex items-center justify-center text-[#020D2F] shrink-0">
                   <MapPin className="w-4 h-4" />
                 </span>
                 <div>
@@ -77,7 +77,7 @@ export default function ContactPage() {
                   <p className="text-[#413F4C]/70 font-medium text-sm leading-snug">
                     Prestige Towers, 3rd Floor,<br />
                     Race Course Road, Indore,<br />
-                    Madhya Pradesh – 452 001, India
+                    Madhya Pradesh — 452 001, India
                   </p>
                 </div>
               </div>
@@ -89,12 +89,12 @@ export default function ContactPage() {
             <div>
               <h3 className="text-xs font-bold uppercase tracking-widest text-[#413F4C]/60 mb-4">For Sales</h3>
               <div className="flex gap-4 items-start">
-                <span className="mt-1 w-9 h-9 rounded-full bg-[#BC9F81]/20 flex items-center justify-center text-[#BC9F81] shrink-0">
+                <span className="mt-1 w-9 h-9 rounded-full bg-[#020D2F]/20 flex items-center justify-center text-[#020D2F] shrink-0">
                   <Phone className="w-4 h-4" />
                 </span>
                 <div>
-                  <a href="tel:18001213344" className="font-bold text-[#413F4C] hover:text-[#BC9F81] transition-colors text-base">1800 121 3344</a>
-                  <p className="text-[#413F4C]/60 font-medium text-sm mt-0.5">Toll Free · Mon–Sat, 9am–7pm</p>
+                  <a href="tel:18001213344" className="font-bold text-[#413F4C] hover:text-[#020D2F] transition-colors text-base">1800 121 3344</a>
+                  <p className="text-[#413F4C]/60 font-medium text-sm mt-0.5">Toll Free · Mon — Sat, 9am — 7pm</p>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ export default function ContactPage() {
             <div>
               <h3 className="text-xs font-bold uppercase tracking-widest text-[#413F4C]/60 mb-4">Email Us</h3>
               <div className="flex gap-4 items-start">
-                <span className="mt-1 w-9 h-9 rounded-full bg-[#BC9F81]/20 flex items-center justify-center text-[#BC9F81] shrink-0">
+                <span className="mt-1 w-9 h-9 rounded-full bg-[#020D2F]/20 flex items-center justify-center text-[#020D2F] shrink-0">
                   <Mail className="w-4 h-4" />
                 </span>
                 <div className="space-y-2">
@@ -144,7 +144,7 @@ export default function ContactPage() {
                     key={label}
                     href={href}
                     aria-label={label}
-                    className="w-9 h-9 rounded-full border border-[#413F4C]/20 hover:border-[#BC9F81] hover:bg-[#BC9F81] hover:text-[#413F4C] text-[#413F4C]/50 flex items-center justify-center transition-all duration-200"
+                    className="w-9 h-9 rounded-full border border-[#413F4C]/20 hover:border-[#020D2F] hover:bg-[#020D2F] hover:text-[#413F4C] text-[#413F4C]/50 flex items-center justify-center transition-all duration-200"
                   >
                     <Icon className="w-4 h-4" />
                   </a>
@@ -157,7 +157,7 @@ export default function ContactPage() {
           {/* Right: Contact Form */}
           <div className="lg:col-span-3">
             <div className="mb-8">
-              <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-2">Send Us a Message</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-2">Send Us a Message</p>
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#413F4C] mb-3">Get in Touch</h2>
               <div className="w-10 h-[2px] bg-[#413F4C] mb-4"></div>
               <p className="text-[#413F4C]/70 font-medium text-sm leading-snug">Fill in the form below and our team will get back to you shortly.</p>
@@ -220,7 +220,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Enquiry For — Custom Select */}
+              {/* Enquiry For €” Custom Select */}
               <CustomSelect
                 id="enquiryFor"
                 label="Enquiry For"
@@ -254,7 +254,7 @@ export default function ContactPage() {
               <div>
                 <button
                   type="submit"
-                  className="group relative bg-gradient-to-r from-[#BC9F81] to-[#AD9266] text-[#413F4C] hover:from-[#413F4C] hover:to-[#413F4C] hover:text-white font-bold py-4 px-12 tracking-widest uppercase transition-all duration-500 inline-flex items-center gap-3"
+                  className="group relative bg-gradient-to-r from-[#020D2F] to-[#413F4C] text-white/90 hover:from-[#413F4C] hover:to-[#413F4C] hover:text-white font-bold py-4 px-12 tracking-widest uppercase transition-all duration-500 inline-flex items-center gap-3"
                 >
                   Send Message
                   <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
@@ -269,7 +269,7 @@ export default function ContactPage() {
       {/* Map Section */}
       <section className="w-full mt-6">
         <div className="max-w-6xl mx-auto px-6 md:px-12 mb-6">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-2">Our Location</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-2">Our Location</p>
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-[#413F4C] mb-1">Find Us</h2>
           <div className="w-8 h-[2px] bg-[#413F4C] mb-3"></div>
           <p className="text-[#413F4C]/70 font-medium text-sm">Visit our office in Indore, Madhya Pradesh</p>
@@ -327,3 +327,5 @@ export default function ContactPage() {
     </main>
   );
 }
+
+

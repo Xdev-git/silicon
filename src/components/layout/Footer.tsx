@@ -11,7 +11,7 @@ export function Footer() {
     <>
 
 
-      <footer className="bg-gradient-to-br from-[#BC9F81] to-[#AD9266] text-black relative overflow-hidden font-sans">
+      <footer className="bg-[#020D2F] text-white relative overflow-hidden font-sans">
         {/* 
           TOP BANNER FROM REFERENCE IMAGE 1 
         */}
@@ -29,32 +29,32 @@ export function Footer() {
             {/* Contact Section */}
             <div className="flex flex-col sm:flex-row gap-8 lg:gap-16">
               <div className="flex items-center gap-4">
-                <div className="bg-[#413F4C] p-2.5 rounded-full">
-                  <PhoneCall className="w-6 h-6 text-[#BC9F81]" />
+                <div className="bg-white/10 p-2.5 rounded-full border border-white/20">
+                  <PhoneCall className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-xs font-semibold text-[#413F4C]/90 tracking-wider">CALL US</span>
-                  <span className="text-lg font-semibold tracking-wide text-[#413F4C]">1800 121 3344</span>
+                  <span className="text-xs font-semibold text-white/70 tracking-wider">CALL US</span>
+                  <span className="text-lg font-semibold tracking-wide text-white">1800 121 3344</span>
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <div className="bg-[#413F4C] p-2.5 rounded-full">
-                  <Mail className="w-6 h-6 text-[#BC9F81]" />
+                <div className="bg-white/10 p-2.5 rounded-full border border-white/20">
+                  <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-xs font-semibold text-[#413F4C]/90 tracking-wider">EMAIL US</span>
-                  <span className="text-lg font-semibold tracking-wide text-[#413F4C]">connect@silicongroup.in</span>
+                  <span className="text-xs font-semibold text-white/70 tracking-wider">EMAIL US</span>
+                  <span className="text-lg font-semibold tracking-wide text-white">connect@silicongroup.in</span>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Separator */}
-          <div className="h-px w-full bg-black/10 my-8"></div>
+          <div className="h-px w-full bg-white/10 my-8"></div>
 
           {/* Tagline */}
-          <p className="text-[15px] md:text-[16px] font-medium leading-relaxed text-[#413F4C]/90 max-w-6xl">
-            Rooted in trust, driven by innovation, and guided by knowledge leadership — <strong className="text-[#413F4C] font-bold">Silicon Group</strong> has redefined India's real estate landscape since 1993. With a growing footprint across the nation, the group continues to be one of India's most respected and preferred names in development and consulting.
+          <p className="text-[15px] md:text-[16px] font-medium leading-relaxed text-white/80 max-w-6xl">
+            Rooted in trust, driven by innovation, and guided by knowledge leadership — <strong className="text-white font-bold">Silicon Group</strong> has redefined India's real estate landscape since 1993. With a growing footprint across the nation, the group continues to be one of India's most respected and preferred names in development and consulting.
           </p>
         </div>
 
@@ -68,42 +68,42 @@ export function Footer() {
 
             <div className="space-y-6">
               <div>
-                <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-[#413F4C]">OUR PROJECTS</h4>
-                <div className="w-10 h-[2px] bg-[#413F4C] mt-3 mb-6"></div>
+                <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-white">OUR PROJECTS</h4>
+                <div className="w-10 h-[2px] bg-white/50 mt-3 mb-6"></div>
               </div>
-              <ul className="space-y-[12px] text-md md:text-md text-[#413F4C]/90 font-medium tracking-wide">
-                <li><Link href="/projects/silicon-water-front" className="hover:text-[#413F4C]/70 transition-colors">Silicon Water Front</Link></li>
-                <li><Link href="/projects/sampada" className="hover:text-[#413F4C]/70 transition-colors">Sampada</Link></li>
-                <li><Link href="/projects/sampurna" className="hover:text-[#413F4C]/70 transition-colors">Sampurna</Link></li>
-                <li><Link href="/projects/swastika" className="hover:text-[#413F4C]/70 transition-colors">Swastika</Link></li>
-                <li><Link href="/projects" className="hover:text-[#413F4C]/70 transition-colors">All Projects</Link></li>
+              <ul className="space-y-[12px] text-md md:text-md text-white/70 font-medium tracking-wide">
+                <li><Link href="/projects/silicon-water-front" className="hover:text-white transition-colors">Silicon Water Front</Link></li>
+                <li><Link href="/projects/sampada" className="hover:text-white transition-colors">Sampada</Link></li>
+                <li><Link href="/projects/sampurna" className="hover:text-white transition-colors">Sampurna</Link></li>
+                <li><Link href="/projects/swastika" className="hover:text-white transition-colors">Swastika</Link></li>
+                <li><Link href="/projects" className="hover:text-white transition-colors">All Projects</Link></li>
               </ul>
             </div>
 
             <div className="space-y-6">
               <div>
-                <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-[#413F4C]">OUR JOURNEY</h4>
-                <div className="w-10 h-[2px] bg-[#413F4C] mt-3 mb-6"></div>
+                <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-white">OUR JOURNEY</h4>
+                <div className="w-10 h-[2px] bg-white/50 mt-3 mb-6"></div>
               </div>
-              <ul className="space-y-[12px] text-md md:text-md text-[#413F4C]/90 font-medium tracking-wide">
-                <li><Link href="/about" className="hover:text-[#413F4C]/70 transition-colors">About Silicon</Link></li>
-                <li><Link href="/our-impact" className="hover:text-[#413F4C]/70 transition-colors">Our Impact</Link></li>
-                <li><Link href="/about/chairman-message" className="hover:text-[#413F4C]/70 transition-colors">Chairman's Message</Link></li>
-                <li><Link href="/career" className="hover:text-[#413F4C]/70 transition-colors">Career</Link></li>
+              <ul className="space-y-[12px] text-md md:text-md text-white/70 font-medium tracking-wide">
+                <li><Link href="/about" className="hover:text-white transition-colors">About Silicon</Link></li>
+                <li><Link href="/our-impact" className="hover:text-white transition-colors">Our Impact</Link></li>
+                <li><Link href="/about/chairmans-message" className="hover:text-white transition-colors">Chairman's Message</Link></li>
+                <li><Link href="/career" className="hover:text-white transition-colors">Career</Link></li>
               </ul>
             </div>
 
             <div className="space-y-6">
               <div>
-                <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-[#413F4C]">RESOURCES</h4>
-                <div className="w-10 h-[2px] bg-[#413F4C] mt-3 mb-6"></div>
+                <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-white">RESOURCES</h4>
+                <div className="w-10 h-[2px] bg-white/50 mt-3 mb-6"></div>
               </div>
-              <ul className="space-y-[12px] text-md md:text-md text-[#413F4C]/90 font-medium tracking-wide">
-                <li><Link href="/nri-corner" className="hover:text-[#413F4C]/70 transition-colors">NRI Corner</Link></li>
-                <li><Link href="/blog" className="hover:text-[#413F4C]/70 transition-colors">Blog</Link></li>
-                <li><Link href="/downloads" className="hover:text-[#413F4C]/70 transition-colors">Downloads</Link></li>
-                <li><Link href="/buyers-guide" className="hover:text-[#413F4C]/70 transition-colors">Buyers Guide</Link></li>
-                <li><Link href="/emi-calculator" className="hover:text-[#413F4C]/70 transition-colors">EMI Calculator</Link></li>
+              <ul className="space-y-[12px] text-md md:text-md text-white/70 font-medium tracking-wide">
+                <li><Link href="/nri-corner" className="hover:text-white transition-colors">NRI Corner</Link></li>
+                <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+                <li><Link href="/downloads" className="hover:text-white transition-colors">Downloads</Link></li>
+                <li><Link href="/buyers-guide" className="hover:text-white transition-colors">Buyers Guide</Link></li>
+                <li><Link href="/emi-calculator" className="hover:text-white transition-colors">EMI Calculator</Link></li>
               </ul>
             </div>
 
@@ -111,24 +111,24 @@ export function Footer() {
               <div className="w-full xl:w-64 space-y-6">
 
                 <div>
-                  <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-[#413F4C]">FOLLOW US ON</h4>
-                  <div className="w-10 h-[2px] bg-[#413F4C] mt-3 mb-6"></div>
+                  <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-white">FOLLOW US ON</h4>
+                  <div className="w-10 h-[2px] bg-white/50 mt-3 mb-6"></div>
                 </div>
                 <div className="flex space-x-3 pb-4">
-                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-[#413F4C] flex items-center justify-center hover:bg-[#413F4C]/80 transition-colors"><Instagram className="w-4 h-4 md:w-5 md:h-5 text-[#BC9F81]" /></Link>
-                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-[#413F4C] flex items-center justify-center hover:bg-[#413F4C]/80 transition-colors"><span className="text-[#BC9F81] text-base font-bold">X</span></Link>
-                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-[#413F4C] flex items-center justify-center hover:bg-red-700 transition-colors"><Play fill="white" className="w-3.5 h-3.5 md:w-4 md:h-4 text-[#BC9F81] ml-0.5" /></Link>
-                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-[#413F4C] flex items-center justify-center hover:bg-[#413F4C]/80 transition-colors"><Linkedin className="w-4 h-4 md:w-5 md:h-5 text-[#BC9F81]" /></Link>
-                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-[#413F4C] flex items-center justify-center hover:bg-[#413F4C]/80 transition-colors"><Facebook className="w-4 h-4 md:w-5 md:h-5 text-[#BC9F81]" /></Link>
+                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center hover:bg-white/20 transition-all duration-300"><Instagram className="w-4 h-4 md:w-5 md:h-5 text-white" /></Link>
+                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center hover:bg-white/20 transition-all duration-300"><span className="text-white text-base font-bold">X</span></Link>
+                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center hover:bg-red-700 transition-all duration-300"><Play fill="white" className="w-3.5 h-3.5 md:w-4 md:h-4 text-white ml-0.5 border-none" /></Link>
+                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center hover:bg-white/20 transition-all duration-300"><Linkedin className="w-4 h-4 md:w-5 md:h-5 text-white" /></Link>
+                  <Link href="#" className="w-9 h-9 md:w-10 md:h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center hover:bg-white/20 transition-all duration-300"><Facebook className="w-4 h-4 md:w-5 md:h-5 text-white" /></Link>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-[#413F4C]">QUICK LINKS</h4>
-                  <div className="w-10 h-[2px] bg-[#413F4C] mt-3 mb-6"></div>
+                  <h4 className="font-bold text-xl md:text-base tracking-wide uppercase text-white">QUICK LINKS</h4>
+                  <div className="w-10 h-[2px] bg-white/50 mt-3 mb-6"></div>
                 </div>
-                <ul className="space-y-[12px] text-md md:text-md text-[#413F4C]/90 font-medium tracking-wide">
-                  <li><Link href="/faqs" className="hover:text-[#413F4C]/70 transition-colors">FAQ's</Link></li>
-                  <li><Link href="/contact" className="hover:text-[#413F4C]/70 transition-colors">Contact us</Link></li>
+                <ul className="space-y-[12px] text-md md:text-md text-white/70 font-medium tracking-wide">
+                  <li><Link href="/faqs" className="hover:text-white transition-colors">FAQ's</Link></li>
+                  <li><Link href="/contact" className="hover:text-white transition-colors">Contact us</Link></li>
                 </ul>
 
               </div>
@@ -138,64 +138,64 @@ export function Footer() {
 
           {/* Full Width Disclaimer with Read More Toggle */}
           <div className="relative z-10 w-full lg:w-[90%] xl:w-[85%] mt-16 mb-12">
-            <strong className="text-[#413F4C] uppercase tracking-widest block mb-3 text-[14px] md:text-[15px] font-bold">Disclaimer:</strong>
+            <strong className="text-white uppercase tracking-widest block mb-3 text-[14px] md:text-[15px] font-bold">Disclaimer:</strong>
 
-            <div className={`text-[13px] md:text-[14px] leading-relaxed text-[#413F4C]/90 font-medium tracking-wide text-justify transition-all duration-300 ${isDisclaimerExpanded ? "space-y-4" : "line-clamp-2 md:line-clamp-2 overflow-hidden space-y-2"}`}>
+            <div className={`text-[13px] md:text-[14px] leading-relaxed text-white/70 font-medium tracking-wide text-justify transition-all duration-300 ${isDisclaimerExpanded ? "space-y-4" : "line-clamp-2 md:line-clamp-2 overflow-hidden space-y-2"}`}>
               <p>
-                This website is updated in accordance with the Real Estate (Regulation and Development) Act, 2016 (RERA). However, users are advised to verify all project details directly with the Company before making any investment decisions.
+                This website is maintained in compliance with the provisions of the Real Estate (Regulation and Development) Act, 2016 (RERA). However, visitors are advised to independently verify all project-related information with the Company prior to making any investment or purchase decisions.
               </p>
               <p>
-                www.parsvnath.com is the only official website of Parsvnath Developers Ltd. Users are strongly advised not to rely on information available on any other websites that may appear similar, use the Company's logo or brand name, or contain project details related to the Company.
+                The official website of the Company is www.siliconrealestate.co.in. Users are cautioned against relying on any other websites that may appear similar, misuse the Company’s brand identity, or display project information associated with the Company.
               </p>
               <p>
-                All content on this website, including brochures and marketing collaterals, is provided for informational purposes only. It does not constitute advertising, marketing, booking, selling, an offer for sale, or an invitation to purchase any unit in any project. Users should verify all information directly with the authorized sales team before making any purchase decision.
+                All materials available on this website, including brochures, visuals, and marketing content, are intended solely for general informational purposes. Nothing contained herein should be construed as an advertisement, offer for sale, invitation to purchase, or a binding commitment of any nature. Prospective buyers are advised to confirm all details directly with the Company€™s authorized representatives.
               </p>
               <p>
-                Project-related content, including layouts, amenities, services, and terms of sale, is based on approved and sanctioned plans and may be subject to change as per legal or regulatory requirements. All visuals, images, and renderings on the website are for representational purposes only, unless explicitly stated otherwise.
+                Project-related information such as layouts, specifications, amenities, and services are based on approved plans and are subject to revisions in accordance with applicable laws, regulations, or approvals. Any images, illustrations, or renderings displayed are indicative in nature and may not represent the final product unless explicitly specified.
               </p>
               <p>
-                The Company provides all content strictly for informational purposes. Users are encouraged to exercise their own judgment and discretion when relying on this information.
+                The Company endeavors to provide accurate and updated information; however, users are encouraged to exercise their own judgment and due diligence while relying on the content presented.
               </p>
               <p>
-                Some links on this website may direct users to third-party websites for convenience. Parsvnath Developers Ltd. does not endorse or take responsibility for the content or security of such external sites. Users should take appropriate precautions before accessing any third-party links.
+                This website may include links to external websites for user convenience. The Company does not have control over and is not responsible for the content, reliability, or security of such third-party platforms.
               </p>
               <p>
-                This website and its contents are provided "as is" and "as available," without any warranties of any kind. The Company disclaims all liability for any loss, damage, or expense, including indirect or consequential losses, arising from the use of this website or its content.
+                All information on this website is provided on an “as is” and “as available” basis, without warranties of any kind, whether express or implied. The Company shall not be liable for any direct, indirect, incidental, or consequential losses arising from the use of this website or reliance on its content.
               </p>
               <p>
-                By using this website, users agree to the terms of this disclaimer. Queries submitted through the website do not constitute official communication or booking confirmations. This disclaimer is governed by the laws of India, and any disputes shall be subject to the jurisdiction of Indian courts.
+                By accessing and using this website, users agree to the terms outlined in this disclaimer. Any inquiries submitted through the website shall not be considered as formal communication or confirmation of any transaction.
               </p>
               <p>
-                This website contains proprietary notices and copyright information that must be respected. The Company reserves the right to update, modify, or change any content—including brochures, project details, and policies—without prior notice. Improvements or changes to projects, products, and programs may be made at any time.
+                This disclaimer shall be governed by the laws of India, and any disputes arising in connection with it shall fall under the jurisdiction of the appropriate courts in India.
               </p>
               <p>
-                Thank you for visiting www.parsvnath.com. We appreciate your understanding.
+                All content on this website is protected by applicable intellectual property laws. Unauthorized use or reproduction is strictly prohibited. The Company reserves the right to modify, update, or remove any content, including project details and policies, at its sole discretion and without prior notice.
               </p>
             </div>
 
             <button
               onClick={() => setIsDisclaimerExpanded(!isDisclaimerExpanded)}
-              className="mt-4 text-[#413F4C] font-bold text-[13px] md:text-[14px] flex items-center hover:text-[#413F4C]/70 transition-colors uppercase tracking-wider"
+              className="mt-4 text-white font-bold text-[13px] md:text-[14px] flex items-center hover:text-white/70 transition-colors uppercase tracking-wider"
             >
               {isDisclaimerExpanded ? "Read Less" : "Read More →"}
             </button>
           </div>
 
-          <div className="flex flex-col lg:flex-row justify-between items-center w-full border-t border-black/10 pt-8 gap-6">
-            <div className="flex flex-wrap items-center gap-x-2 gap-y-2 text-[13px] md:text-[14px] text-[#413F4C]/90 font-medium">
-              <Link href="/privacy-policy" className="hover:text-[#413F4C] transition-colors">Privacy Policy</Link>
-              <div className="w-1 h-1 rounded-full bg-black/20 hidden md:block"></div>
-              <Link href="/terms-of-use" className="hover:text-[#413F4C] transition-colors">Terms & Conditions</Link>
-              <div className="w-1 h-1 rounded-full bg-black/20 hidden md:block"></div>
-              <Link href="/disclaimer" className="hover:text-[#413F4C] transition-colors">Disclaimer</Link>
-              <div className="w-1 h-1 rounded-full bg-black/20 hidden md:block"></div>
-              <Link href="/cookies" className="hover:text-[#413F4C] transition-colors">Cookie Policy</Link>
-              <div className="w-1 h-1 rounded-full bg-black/20 hidden md:block"></div>
-              <Link href="/grievance-redressal" className="hover:text-[#413F4C] transition-colors">Grievance Redressal</Link>
-              <div className="w-1 h-1 rounded-full bg-black/20 hidden md:block"></div>
-              <Link href="/rera-disclosure" className="hover:text-[#413F4C] transition-colors">RERA Disclosure</Link>
+          <div className="flex flex-col lg:flex-row justify-between items-center w-full border-t border-white/10 pt-8 gap-6">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[13px] md:text-[14px] text-white/60 font-medium">
+              <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+              <div className="w-1 h-1 rounded-full bg-white/20 hidden md:block"></div>
+              <Link href="/terms-of-use" className="hover:text-white transition-colors">Terms & Conditions</Link>
+              <div className="w-1 h-1 rounded-full bg-white/20 hidden md:block"></div>
+              <Link href="/disclaimer" className="hover:text-white transition-colors">Disclaimer</Link>
+              <div className="w-1 h-1 rounded-full bg-white/20 hidden md:block"></div>
+              <Link href="/cookies" className="hover:text-white transition-colors">Cookie Policy</Link>
+              <div className="w-1 h-1 rounded-full bg-white/20 hidden md:block"></div>
+              <Link href="/grievance-redressal" className="hover:text-white transition-colors">Grievance Redressal</Link>
+              <div className="w-1 h-1 rounded-full bg-white/20 hidden md:block"></div>
+              <Link href="/rera-disclosure" className="hover:text-white transition-colors">RERA Disclosure</Link>
             </div>
-            <div className="text-[13px] md:text-[14px] text-[#413F4C]/90 font-medium">
+            <div className="text-[13px] md:text-[14px] text-white/60 font-medium">
               © 2026 Silicon. All rights reserved.
             </div>
           </div>
@@ -205,3 +205,4 @@ export function Footer() {
     </>
   );
 }
+

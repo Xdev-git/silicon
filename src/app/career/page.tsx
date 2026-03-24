@@ -10,7 +10,7 @@ const values = [
     icon: Heart,
     title: "People First",
     desc: "We put our team, customers, and communities at the very centre of everything we do.",
-    color: "#BC9F81",
+    color: "#020D2F",
     bg: "#F3EEEB",
     num: "01",
   },
@@ -18,7 +18,7 @@ const values = [
     icon: TrendingUp,
     title: "Growth Driven",
     desc: "Continuous learning, mentorship programmes and internal mobility keep every team member growing.",
-    color: "#BC9F81",
+    color: "#020D2F",
     bg: "#F3EEEB",
     num: "02",
   },
@@ -26,7 +26,7 @@ const values = [
     icon: Lightbulb,
     title: "Innovation",
     desc: "We challenge conventions and leverage technology to redefine the real estate experience.",
-    color: "#BC9F81",
+    color: "#020D2F",
     bg: "#F3EEEB",
     num: "03",
   },
@@ -34,15 +34,15 @@ const values = [
     icon: Users,
     title: "Collaboration",
     desc: "Cross-functional teamwork and open communication form the backbone of how we solve problems.",
-    color: "#BC9F81",
+    color: "#020D2F",
     bg: "#F3EEEB",
     num: "04",
   },
   {
     icon: Target,
     title: "Purpose Driven",
-    desc: "Every project we build is more than bricks and mortar — it is a home, a community, a legacy.",
-    color: "#BC9F81",
+    desc: "Every project we build is more than bricks and mortar €” it is a home, a community, a legacy.",
+    color: "#020D2F",
     bg: "#F3EEEB",
     num: "05",
   },
@@ -50,7 +50,7 @@ const values = [
     icon: Star,
     title: "Excellence",
     desc: "We hold ourselves to the highest standards of quality, integrity and professionalism.",
-    color: "#BC9F81",
+    color: "#020D2F",
     bg: "#F3EEEB",
     num: "06",
   },
@@ -62,7 +62,7 @@ const vacancies = [
     department: "Sales & Business Development",
     location: "Indore, Madhya Pradesh",
     type: "Full Time",
-    experience: "5–8 years",
+    experience: "5€“8 years",
     desc: "Lead our residential sales team, build relationships with high-net-worth clients, and drive revenue growth across our flagship projects in Madhya Pradesh.",
   },
   {
@@ -70,15 +70,15 @@ const vacancies = [
     department: "Marketing",
     location: "Indore, Madhya Pradesh",
     type: "Full Time",
-    experience: "2–4 years",
+    experience: "2€“4 years",
     desc: "Own our digital presence across social media, SEO, paid campaigns, and email marketing. Work closely with the creative team to craft compelling narratives.",
   },
   {
-    title: "Site Engineer – Civil",
+    title: "Site Engineer €“ Civil",
     department: "Engineering & Construction",
     location: "Indore, Madhya Pradesh",
     type: "Full Time",
-    experience: "3–6 years",
+    experience: "3€“6 years",
     desc: "Oversee on-site construction activities, ensure compliance with engineering drawings and safety standards, and coordinate with contractors and vendors.",
   },
   {
@@ -86,15 +86,15 @@ const vacancies = [
     department: "Customer Relations",
     location: "Indore, Madhya Pradesh",
     type: "Full Time",
-    experience: "1–3 years",
+    experience: "1€“3 years",
     desc: "Manage post-sale customer journeys, handle queries, and ensure a seamless experience from booking to handover. Proficiency in CRM tools required.",
   },
   {
-    title: "Executive / Senior Executive – Purchase",
+    title: "Executive / Senior Executive €“ Purchase",
     department: "Procurement",
     location: "Indore, Madhya Pradesh",
     type: "Full Time",
-    experience: "2–5 years",
+    experience: "2€“5 years",
     desc: "Manage vendor relationships, procurement processes, purchase orders and inventory tracking across multiple construction sites.",
   },
 ];
@@ -128,23 +128,23 @@ export default function CareerPage() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/60" />
         <div className="relative z-10 max-w-3xl">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">
             Find the career of your dreams
           </p>
           <h1 className="text-white uppercase tracking-widest font-bold drop-shadow-lg text-3xl md:text-5xl">
             We&apos;re more than<br className="hidden md:block" /> just a workplace.<br />
             We&apos;re a family.
           </h1>
-          <div className="w-12 h-[2px] mx-auto bg-[#BC9F81] mt-8"></div>
+          <div className="w-12 h-[2px] mx-auto bg-[#020D2F] mt-8"></div>
         </div>
       </div>
 
       {/* Breadcrumbs */}
       <div className="max-w-6xl mx-auto px-6 md:px-12 pt-8">
         <nav className="flex flex-wrap items-center text-sm text-[#413F4C]/60 font-medium">
-          <Link href="/" className="hover:text-[#BC9F81] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#020D2F] transition-colors">Home</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-[#BC9F81] font-bold">Career</span>
+          <span className="text-[#020D2F] font-bold">Career</span>
         </nav>
       </div>
 
@@ -152,9 +152,9 @@ export default function CareerPage() {
       <section className="max-w-6xl mx-auto px-6 md:px-12 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Join Our Team</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Join Our Team</p>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#413F4C] mb-4">
-              Help Us Build the <span className="text-[#BC9F81]">Future of Real Estate</span>
+              Help Us Build the <span className="text-[#020D2F]">Future of Real Estate</span>
             </h2>
             <div className="w-10 h-[2px] bg-[#413F4C] mb-6"></div>
             <p className="text-[#413F4C]/70 font-medium leading-snug text-base">
@@ -162,8 +162,8 @@ export default function CareerPage() {
             </p>
             <div className="mt-10 flex flex-wrap gap-10">
               {[["50+", "Team Members"], ["10+", "Active Projects"], ["15+", "Years Legacy"]].map(([num, label]) => (
-                <div key={label} className="border-l-2 border-[#BC9F81] pl-4">
-                  <p className="text-3xl font-bold text-[#BC9F81]">{num}</p>
+                <div key={label} className="border-l-2 border-[#020D2F] pl-4">
+                  <p className="text-3xl font-bold text-[#020D2F]">{num}</p>
                   <p className="text-xs font-bold uppercase tracking-widest text-[#413F4C]/70 mt-1">{label}</p>
                 </div>
               ))}
@@ -184,9 +184,9 @@ export default function CareerPage() {
         <div className="absolute inset-0 bg-[#161a1d]/90" />
         <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12">
           <div className="text-center mb-14">
-            <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Why Silicon</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Why Silicon</p>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">Life at Silicon Real Estate</h2>
-            <div className="w-10 h-[2px] bg-[#BC9F81] mx-auto"></div>
+            <div className="w-10 h-[2px] bg-[#020D2F] mx-auto"></div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {values.map(({ icon: Icon, title, desc, color, bg, num }) => (
@@ -203,7 +203,7 @@ export default function CareerPage() {
                   >
                     <Icon className="w-6 h-6" />
                   </div>
-                  <h3 className="font-bold text-lg text-[#413F4C] mb-3 group-hover:text-[#BC9F81] transition-colors">{title}</h3>
+                  <h3 className="font-bold text-lg text-[#413F4C] mb-3 group-hover:text-[#020D2F] transition-colors">{title}</h3>
                   <p className="text-[#413F4C]/70 font-medium text-sm leading-snug">{desc}</p>
                   <div className="mt-5 w-6 h-[2px] transition-all duration-300 group-hover:w-12" style={{ backgroundColor: color }}></div>
                 </div>
@@ -225,9 +225,9 @@ export default function CareerPage() {
             />
           </div>
 
-          {/* Right — Vacancy list */}
+          {/* Right €” Vacancy list */}
           <div className="lg:col-span-3">
-            <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Open Roles</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Open Roles</p>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#413F4C] mb-3">Current Vacancies</h2>
             <div className="w-10 h-[2px] bg-[#413F4C] mb-8"></div>
 
@@ -239,14 +239,14 @@ export default function CareerPage() {
                     className="w-full flex items-center justify-between py-5 text-left gap-4"
                   >
                     <div>
-                      <p className="font-bold text-[#413F4C] text-base group-hover:text-[#BC9F81] transition-colors">
+                      <p className="font-bold text-[#413F4C] text-base group-hover:text-[#020D2F] transition-colors">
                         {job.title}
                       </p>
                       <p className="text-sm text-[#413F4C]/60 font-medium mt-0.5">
                         {job.department} · {job.type}
                       </p>
                     </div>
-                    <span className="shrink-0 w-8 h-8 border border-[#413F4C]/20 group-hover:border-[#BC9F81] group-hover:bg-[#BC9F81] group-hover:text-[#413F4C] text-[#413F4C]/50 flex items-center justify-center transition-all duration-200">
+                    <span className="shrink-0 w-8 h-8 border border-[#413F4C]/20 group-hover:border-[#020D2F] group-hover:bg-[#020D2F] group-hover:text-[#413F4C] text-[#413F4C]/50 flex items-center justify-center transition-all duration-200">
                       {openIndex === i ? <Minus className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
                     </span>
                   </button>
@@ -255,16 +255,16 @@ export default function CareerPage() {
                     <div className="pb-6 pr-12 animate-in fade-in slide-in-from-top-2 duration-200">
                       <div className="flex flex-wrap gap-4 mb-4">
                         <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-muted-foreground border border-dotted border-border/70 px-3 py-1.5">
-                          📍 {job.location}
+                          ðŸ“ {job.location}
                         </span>
                         <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-muted-foreground border border-dotted border-border/70 px-3 py-1.5">
-                          🕐 {job.experience} exp.
+                          ðŸ• {job.experience} exp.
                         </span>
                       </div>
                       <p className="text-[#413F4C]/70 font-medium text-sm leading-snug mb-5">{job.desc}</p>
                       <button
                         onClick={() => scrollToForm(job.title)}
-                        className="group/btn relative inline-flex items-center gap-2 bg-gradient-to-r from-[#BC9F81] to-[#AD9266] text-[#413F4C] font-bold py-2.5 px-8 tracking-widest uppercase text-xs transition-all duration-300 hover:shadow-lg hover:scale-[1.02]"
+                        className="group/btn relative inline-flex items-center gap-2 bg-gradient-to-r from-[#020D2F] to-[#413F4C] text-[#413F4C] font-bold py-2.5 px-8 tracking-widest uppercase text-xs transition-all duration-300 hover:shadow-lg hover:scale-[1.02]"
                       >
                         Apply Now
                       </button>
@@ -276,7 +276,7 @@ export default function CareerPage() {
 
             <p className="mt-10 text-sm text-[#413F4C]/70 font-medium border border-[#413F4C]/10 bg-[#F3EEEB] p-4">
               Don&apos;t see a role that fits? Send your CV to{" "}
-              <a href="mailto:careers@siliconrealestate.co.in" className="text-[#BC9F81] hover:text-[#413F4C] font-bold inline-flex items-center gap-1 border-b border-dotted border-[#BC9F81]/50 hover:border-[#413F4C] transition-colors">
+              <a href="mailto:careers@siliconrealestate.co.in" className="text-[#020D2F] hover:text-[#413F4C] font-bold inline-flex items-center gap-1 border-b border-dotted border-[#020D2F]/50 hover:border-[#413F4C] transition-colors">
                 careers@siliconrealestate.co.in
               </a>{" "}
               and we&apos;ll keep your profile on file for future opportunities.
@@ -334,9 +334,9 @@ export default function CareerPage() {
                 options={[
                   { value: "senior-sales-manager", label: "Senior Sales Manager" },
                   { value: "digital-marketing-executive", label: "Digital Marketing Executive" },
-                  { value: "site-engineer-civil", label: "Site Engineer – Civil" },
+                  { value: "site-engineer-civil", label: "Site Engineer €“ Civil" },
                   { value: "crm-executive", label: "CRM Executive" },
-                  { value: "executive-senior-executive-purchase", label: "Executive / Senior Executive – Purchase" },
+                  { value: "executive-senior-executive-purchase", label: "Executive / Senior Executive €“ Purchase" },
                   { value: "other", label: "Other / General Application" },
                 ]}
                 value={selectedPosition}
@@ -380,3 +380,5 @@ export default function CareerPage() {
     </main>
   );
 }
+
+

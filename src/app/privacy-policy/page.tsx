@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageForm } from "@/components/legal/LegalPageForm";
 import { ChevronRight, Mail, Phone, MapPin } from "lucide-react";
@@ -34,12 +34,12 @@ export default function PrivacyPolicyPage() {
           <h1 className="text-white uppercase tracking-widest font-bold mb-4 drop-shadow-lg text-2xl md:text-4xl">
             Privacy Policy
           </h1>
-          <div className="w-12 h-[2px] mx-auto bg-[#BC9F81]"></div>
+          <div className="w-12 h-[2px] mx-auto bg-[#020D2F]"></div>
         </div>
       </div>
 
       {/* 2. Sub menu just below hero image with no border, minimum bottom shadow */}
-      <div className="w-full bg-white dark:bg-zinc-950 shadow-[0_2px_10px_rgba(0,0,0,0.04)] relative z-20">
+      <div className="w-full bg-white shadow-[0_2px_10px_rgba(0,0,0,0.04)] relative z-20">
         <div className="max-w-6xl mx-auto px-4 py-3">
           <ul className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3  font-semibold uppercase tracking-wider">
             {legalLinks.map((link) => (
@@ -63,9 +63,9 @@ export default function PrivacyPolicyPage() {
 
         {/* Breadcrumbs below sub-menu layout */}
         <nav className="flex flex-wrap items-center text-sm text-[#413F4C]/60 font-medium mb-8">
-          <Link href="/" className="hover:text-[#BC9F81] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#020D2F] transition-colors">Home</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-[#BC9F81] font-bold">Privacy Policy</span>
+          <span className="text-[#020D2F] font-bold">Privacy Policy</span>
         </nav>
 
         {/* Content Section - Cozy and Compact (reduced space-y and line-height) */}
@@ -89,7 +89,7 @@ export default function PrivacyPolicyPage() {
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-base font-bold text-[#BC9F81] mb-2">Information You Provide</h3>
+                <h3 className="text-base font-bold text-[#020D2F] mb-2">Information You Provide</h3>
                 <p className="mb-2 ">You may voluntarily provide information including:</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="border border-dotted border-border/80  p-5">
@@ -117,7 +117,7 @@ export default function PrivacyPolicyPage() {
               </div>
 
               <div>
-                <h3 className="text-base font-bold text-[#BC9F81] mb-2">Information Collected Automatically</h3>
+                <h3 className="text-base font-bold text-[#020D2F] mb-2">Information Collected Automatically</h3>
                 <p className="mb-2 ">When you visit <a href="https://siliconrealestate.co.in" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 font-medium inline-flex items-center gap-1 border-b border-dotted border-primary/50 hover:border-primary transition-colors">https://siliconrealestate.co.in <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>, certain technical information may be collected automatically such as:</p>
                 <ul className="list-disc pl-5 space-y-1  mb-2">
                   <li>IP address</li>
@@ -131,7 +131,7 @@ export default function PrivacyPolicyPage() {
               </div>
 
               <div>
-                <h3 className="text-base font-bold text-[#BC9F81] mb-2">Information from Third Parties</h3>
+                <h3 className="text-base font-bold text-[#020D2F] mb-2">Information from Third Parties</h3>
                 <p className="mb-2 ">We may receive information about you from trusted third parties including:</p>
                 <ul className="list-disc pl-5 space-y-1  mb-2">
                   <li>Channel partners or real estate consultants</li>
@@ -324,3 +324,6 @@ export default function PrivacyPolicyPage() {
     </main>
   );
 }
+
+
+

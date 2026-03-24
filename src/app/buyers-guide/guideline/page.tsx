@@ -1,4 +1,4 @@
-import { PageHeader } from "@/components/layout/PageHeader";
+﻿import { PageHeader } from "@/components/layout/PageHeader";
 import { FileText, AlertCircle } from "lucide-react";
 
 export const metadata = {
@@ -42,9 +42,9 @@ export default function GuidelinePage() {
 
       <section className="py-24 px-6 md:px-12 lg:px-24 max-w-5xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Our Policies</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Our Policies</p>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#413F4C] mb-4">
-            Transparent Policies for a <span className="text-[#BC9F81]">Smooth Acquisition</span>
+            Transparent Policies for a <span className="text-[#020D2F]">Smooth Acquisition</span>
           </h2>
           <div className="w-10 h-[2px] bg-[#413F4C] mx-auto mb-8"></div>
           <p className="text-[#413F4C]/70 font-medium max-w-2xl mx-auto text-lg leading-snug">
@@ -54,9 +54,9 @@ export default function GuidelinePage() {
 
         <div className="space-y-5">
           {policies.map((policy, index) => (
-            <div key={index} className="flex flex-col md:flex-row gap-6 p-8 bg-[#F3EEEB] border border-[#413F4C]/10 hover:border-[#BC9F81]/40 transition-all duration-300 hover:shadow-sm">
+            <div key={index} className="flex flex-col md:flex-row gap-6 p-8 bg-[#F3EEEB] border border-[#413F4C]/10 hover:border-[#020D2F]/40 transition-all duration-300 hover:shadow-sm">
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#BC9F81] to-[#AD9266] flex items-center justify-center text-[#413F4C] font-bold text-lg">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#020D2F] to-[#413F4C] flex items-center justify-center text-[#413F4C] font-bold text-lg">
                   {index + 1}
                 </div>
               </div>
@@ -64,7 +64,7 @@ export default function GuidelinePage() {
                 <h3 className="text-xl font-bold text-[#413F4C] mb-3">
                   {policy.title}
                 </h3>
-                <div className="w-6 h-[2px] bg-[#BC9F81] mb-4"></div>
+                <div className="w-6 h-[2px] bg-[#020D2F] mb-4"></div>
                 <p className="text-[#413F4C]/70 font-medium leading-snug text-sm">
                   {policy.content}
                 </p>
@@ -73,8 +73,8 @@ export default function GuidelinePage() {
           ))}
         </div>
 
-        <div className="mt-12 bg-[#F3EEEB] border-l-4 border-[#BC9F81] p-8 flex items-start gap-4">
-          <AlertCircle className="w-6 h-6 text-[#BC9F81] flex-shrink-0 mt-1" />
+        <div className="mt-12 bg-[#F3EEEB] border-l-4 border-[#020D2F] p-8 flex items-start gap-4">
+          <AlertCircle className="w-6 h-6 text-[#020D2F] flex-shrink-0 mt-1" />
           <div>
             <h4 className="font-bold text-lg text-[#413F4C] mb-2">Legal Disclaimer</h4>
             <p className="text-sm font-medium text-[#413F4C]/70 leading-snug">
@@ -86,3 +86,5 @@ export default function GuidelinePage() {
     </main>
   );
 }
+
+

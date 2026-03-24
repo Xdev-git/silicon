@@ -50,14 +50,14 @@ export default function EMICalculatorPage() {
            <nav className="flex justify-center items-center text-xs text-white/50 mb-6 font-semibold uppercase tracking-widest">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronRight className="w-3.5 h-3.5 mx-2" />
-            <span className="text-[#BC9F81]">EMI Calculator</span>
+            <span className="text-[#020D2F]">EMI Calculator</span>
           </nav>
           
-          <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Financial Planning</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Financial Planning</p>
           <h1 className="text-white mb-4 tracking-widest font-bold text-3xl md:text-5xl uppercase drop-shadow-lg">
             EMI Calculator
           </h1>
-          <div className="w-12 h-[2px] bg-[#BC9F81] mx-auto mb-6"></div>
+          <div className="w-12 h-[2px] bg-[#020D2F] mx-auto mb-6"></div>
           <p className="text-base md:text-lg text-white/80 max-w-2xl mx-auto font-medium leading-snug">
             Use our EMI calculator to estimate your monthly home loan commitments and plan your dream home purchase.
           </p>
@@ -72,7 +72,7 @@ export default function EMICalculatorPage() {
             {/* Input Controls */}
             <div className="lg:col-span-7 space-y-12">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 rounded-full bg-[#BC9F81]/20 flex items-center justify-center text-[#BC9F81]">
+                <div className="w-12 h-12 rounded-full bg-[#020D2F]/20 flex items-center justify-center text-[#020D2F]">
                   <Calculator className="w-6 h-6" />
                 </div>
                 <h2 className="text-3xl font-bold tracking-tight text-[#413F4C]">Loan Details</h2>
@@ -84,7 +84,7 @@ export default function EMICalculatorPage() {
                   <label htmlFor="loanAmount" className="text-sm font-bold uppercase tracking-widest text-[#413F4C]/60">
                     Loan Amount
                   </label>
-                  <div className="text-2xl font-bold text-[#BC9F81]">
+                  <div className="text-2xl font-bold text-[#020D2F]">
                     {formatCurrency(loanAmount)}
                   </div>
                 </div>
@@ -96,11 +96,11 @@ export default function EMICalculatorPage() {
                   step="100000"
                   value={loanAmount}
                   onChange={(e) => setLoanAmount(Number(e.target.value))}
-                  className="w-full cursor-pointer accent-[#BC9F81]"
+                  className="w-full cursor-pointer accent-[#020D2F]"
                 />
                 <div className="flex justify-between text-xs text-[#413F4C]/60 font-bold">
-                  <span>₹5 Lakhs</span>
-                  <span>₹5 Crores</span>
+                  <span>‚¹5 Lakhs</span>
+                  <span>‚¹5 Crores</span>
                 </div>
               </div>
 
@@ -110,7 +110,7 @@ export default function EMICalculatorPage() {
                   <label htmlFor="interestRate" className="text-sm font-bold uppercase tracking-widest text-[#413F4C]/60">
                     Interest Rate (p.a.)
                   </label>
-                  <div className="text-2xl font-bold text-[#BC9F81]">
+                  <div className="text-2xl font-bold text-[#020D2F]">
                     {interestRate}%
                   </div>
                 </div>
@@ -122,7 +122,7 @@ export default function EMICalculatorPage() {
                   step="0.1"
                   value={interestRate}
                   onChange={(e) => setInterestRate(Number(e.target.value))}
-                  className="w-full cursor-pointer accent-[#BC9F81]"
+                  className="w-full cursor-pointer accent-[#020D2F]"
                 />
                 <div className="flex justify-between text-xs text-[#413F4C]/60 font-bold">
                   <span>5%</span>
@@ -136,7 +136,7 @@ export default function EMICalculatorPage() {
                   <label htmlFor="loanTenure" className="text-sm font-bold uppercase tracking-widest text-[#413F4C]/60">
                     Loan Tenure (Years)
                   </label>
-                  <div className="text-2xl font-bold text-[#BC9F81]">
+                  <div className="text-2xl font-bold text-[#020D2F]">
                     {loanTenure} Years
                   </div>
                 </div>
@@ -148,7 +148,7 @@ export default function EMICalculatorPage() {
                   step="1"
                   value={loanTenure}
                   onChange={(e) => setLoanTenure(Number(e.target.value))}
-                  className="w-full cursor-pointer accent-[#BC9F81]"
+                  className="w-full cursor-pointer accent-[#020D2F]"
                 />
                 <div className="flex justify-between text-xs text-[#413F4C]/60 font-bold">
                   <span>1 Year</span>
@@ -159,7 +159,7 @@ export default function EMICalculatorPage() {
 
             {/* Results Display */}
             <div className="lg:col-span-5">
-              <div className="sticky top-28 bg-accent text-black p-10 shadow-2xl relative overflow-hidden">
+              <div className="sticky top-28 bg-accent text-white p-10 shadow-2xl relative overflow-hidden">
                 {/* Decorative background element */}
                 <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -mr-20 -mt-20"></div>
                 
@@ -210,3 +210,6 @@ export default function EMICalculatorPage() {
     </main>
   );
 }
+
+
+

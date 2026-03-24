@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import {
   Carousel,
@@ -64,13 +64,13 @@ export function CardsCarousel() {
   }, [api]);
 
   return (
-    <section className="py-24 bg-zinc-50 dark:bg-zinc-950 overflow-hidden">
+    <section className="py-24 bg-zinc-50 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="flex justify-center mb-16">
           <div className="text-center">
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-zinc-900 dark:text-zinc-50">Featured <span className="text-[#BC9F81]">Projects</span></h2>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4 text-zinc-900">Featured <span className="text-[#020D2F]">Projects</span></h2>
             <div className="w-10 h-[2px] bg-[#413F4C] mt-3 mb-2 mx-auto"></div>
-            <p className="text-zinc-500 dark:text-zinc-400 text-xl font-normal max-w-xl mx-auto">
+            <p className="text-zinc-500 text-xl font-normal max-w-xl mx-auto">
               Explore our portfolio of award-winning architectural masterpieces across the globe.
             </p>
           </div>
@@ -78,8 +78,8 @@ export function CardsCarousel() {
 
         <div className="relative isolate px-8 md:px-12">
           {/* Fading edges to make the center card pop more */}
-          <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-24 bg-gradient-to-r from-zinc-50 dark:from-zinc-950 to-transparent"></div>
-          <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-24 bg-gradient-to-l from-zinc-50 dark:from-zinc-950 to-transparent"></div>
+          <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-24 bg-gradient-to-r from-zinc-50 to-transparent"></div>
+          <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-24 bg-gradient-to-l from-zinc-50 to-transparent"></div>
 
           <Carousel
             setApi={setApi}
@@ -148,3 +148,6 @@ export function CardsCarousel() {
     </section>
   );
 }
+
+
+

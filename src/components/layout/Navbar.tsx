@@ -47,7 +47,7 @@ const journeyLinks = [
   },
   {
     label: "Chairman's Message",
-    href: "/about/chairman-message",
+    href: "/about/chairmans-message",
     desc: "A personal message from our Chairman on trust, quality, and our vision for Indore's future.",
     img: "https://placehold.co/400x300/E6E9EE/9AA0A6.png?text=Chairman",
   },
@@ -168,7 +168,7 @@ export function Navbar() {
             </div>
           </div>
 
-          {/* ── CENTER: Logo ───────────────────────────────────── */}
+          {/* ── CENTER: Logo ────────────────────────────────── */}
           <div className="flex-1 flex justify-center lg:flex-none lg:absolute lg:left-1/2 lg:-translate-x-1/2">
             <Link href="/" className="flex items-center gap-2 group shrink-0">
               <svg
@@ -184,7 +184,7 @@ export function Navbar() {
             </Link>
           </div>
 
-          {/* ── RIGHT: Links + CTA + hamburger ────────────────── */}
+          {/* ── RIGHT: Links + CTA + hamburger ────────────────────────────── */}
           <div className="hidden lg:flex items-center gap-6 text-md font-medium">
             <Link href="/nri-corner" className={`transition-colors ${linkHover}`}>NRI Corner</Link>
             <Link href="/blog" className={`transition-colors ${linkHover}`}>Blog</Link>
@@ -194,12 +194,12 @@ export function Navbar() {
             <Link
               href="/contact"
               className={`relative overflow-hidden flex items-center gap-2 px-5 py-2 text-xs font-bold uppercase tracking-widest transition-all duration-300 hover:scale-[1.05] group/cta ${solid
-                ? "bg-gradient-to-r from-[#BC9F81] to-[#AD9266] text-white shadow-md"
-                : "bg-[#030202] text-[#F3EEEB] hover:bg-[#413F4C]"
+                ? "bg-gradient-to-r from-[#020D2F] to-[#413F4C] text-white shadow-md"
+                : "bg-[#020D2F] text-[#F3EEEB] hover:bg-[#413F4C]"
                 }`}
             >
               {solid && (
-                <div className="absolute inset-0 bg-gradient-to-r from-[#AD9266] to-[#BC9F81] opacity-0 group-hover/cta:opacity-100 transition-opacity duration-500 ease-in-out z-0"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-[#413F4C] to-[#020D2F] opacity-0 group-hover/cta:opacity-100 transition-opacity duration-500 ease-in-out z-0"></div>
               )}
               <div className="relative z-10 flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5" />
@@ -232,3 +232,5 @@ export function Navbar() {
     </>
   );
 }
+
+

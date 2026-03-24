@@ -1,4 +1,4 @@
-import { PageHeader } from "@/components/layout/PageHeader";
+﻿import { PageHeader } from "@/components/layout/PageHeader";
 import Image from "next/image";
 import {
   Accordion,
@@ -17,22 +17,22 @@ export const metadata = {
 export default function NriCornerPage() {
   const benefits = [
     {
-      icon: <TrendingUp className="w-8 h-8 text-[#BC9F81]" />,
+      icon: <TrendingUp className="w-8 h-8 text-[#020D2F]" />,
       title: "High ROI Potential",
       desc: "Indore is one of India's fastest-growing tier-2 cities, offering excellent capital appreciation and rental yields compared to saturated metros."
     },
     {
-      icon: <Globe className="w-8 h-8 text-[#BC9F81]" />,
+      icon: <Globe className="w-8 h-8 text-[#020D2F]" />,
       title: "Seamless Remote Process",
       desc: "We offer end-to-end virtual tours, digital documentation, and dedicated NRI relationship managers to ensure a smooth buying experience from anywhere in the world."
     },
     {
-      icon: <Building2 className="w-8 h-8 text-[#BC9F81]" />,
+      icon: <Building2 className="w-8 h-8 text-[#020D2F]" />,
       title: "Premium Asset Quality",
       desc: "Invest in legacy-grade properties built with uncompromised structural integrity and world-class amenities designed for global lifestyles."
     },
     {
-      icon: <ShieldCheck className="w-8 h-8 text-[#BC9F81]" />,
+      icon: <ShieldCheck className="w-8 h-8 text-[#020D2F]" />,
       title: "Transparent & Compliant",
       desc: "All our projects are RERA-registered with clear titles. We assist with FEMA guidelines, RBI regulations, and tax implications for NRI investments."
     }
@@ -68,16 +68,16 @@ export default function NriCornerPage() {
       <section className="py-24 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
-            <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81]">For Non-Resident Indians</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F]">For Non-Resident Indians</p>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#413F4C]">
-              Your Roots in Indore, <br /><span className="text-[#BC9F81]">Your Investment Global.</span>
+              Your Roots in Indore, <br /><span className="text-[#020D2F]">Your Investment Global.</span>
             </h2>
             <div className="w-10 h-[2px] bg-[#413F4C]"></div>
             <p className="text-[#413F4C]/80 font-medium leading-snug text-lg">
               At Silicon, we understand that investing in your homeland from miles away requires immense trust and a seamless process. We have curated a specialized experience for our NRI investors, ensuring that distance is never a barrier to owning a piece of Indore&apos;s finest real estate.
             </p>
             <div className="pt-4">
-              <Link href="/contact" className="inline-flex items-center justify-center bg-gradient-to-r from-[#BC9F81] to-[#AD9266] text-[#413F4C] font-bold py-4 px-10 uppercase tracking-widest text-xs transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+              <Link href="/contact" className="inline-flex items-center justify-center bg-gradient-to-r from-[#020D2F] to-[#413F4C] text-[#413F4C] font-bold py-4 px-10 uppercase tracking-widest text-xs transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
                 Connect with NRI Expert
               </Link>
             </div>
@@ -97,20 +97,20 @@ export default function NriCornerPage() {
       {/* Benefits Section */}
       <section className="py-24 px-6 md:px-12 lg:px-24 bg-[#413F4C] text-center">
         <div className="max-w-7xl mx-auto">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Investment Advantages</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Investment Advantages</p>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">
-            Why Invest With <span className="text-[#BC9F81]">Silicon?</span>
+            Why Invest With <span className="text-[#020D2F]">Silicon?</span>
           </h2>
-          <div className="w-10 h-[2px] bg-[#BC9F81] mx-auto mb-16"></div>
+          <div className="w-10 h-[2px] bg-[#020D2F] mx-auto mb-16"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefits.map((benefit, i) => (
-              <div key={i} className="bg-white/5 border border-white/10 p-8 hover:-translate-y-2 hover:border-[#BC9F81]/30 transition-all duration-300 text-left group">
-                <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center mb-6 group-hover:bg-[#BC9F81]/10 transition-colors">
+              <div key={i} className="bg-white/5 border border-white/10 p-8 hover:-translate-y-2 hover:border-[#020D2F]/30 transition-all duration-300 text-left group">
+                <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center mb-6 group-hover:bg-[#020D2F]/10 transition-colors">
                   {benefit.icon}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-3 group-hover:text-[#BC9F81] transition-colors">{benefit.title}</h3>
-                <div className="w-6 h-[2px] bg-[#BC9F81] mb-4"></div>
+                <h3 className="text-lg font-bold text-white mb-3 group-hover:text-[#020D2F] transition-colors">{benefit.title}</h3>
+                <div className="w-6 h-[2px] bg-[#020D2F] mb-4"></div>
                 <p className="text-white/60 font-medium text-sm leading-snug">{benefit.desc}</p>
               </div>
             ))}
@@ -122,7 +122,7 @@ export default function NriCornerPage() {
       <section className="py-24 px-6 md:px-12 lg:px-24 bg-[#F3EEEB]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">Guidance</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">Guidance</p>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#413F4C] mb-4">Investment Guidance & FAQs</h2>
             <div className="w-10 h-[2px] bg-[#413F4C] mx-auto mb-4"></div>
             <p className="text-[#413F4C]/70 font-medium leading-snug">Navigating Indian real estate as an NRI made simple.</p>
@@ -130,8 +130,8 @@ export default function NriCornerPage() {
 
           <Accordion type="single" collapsible className="w-full space-y-3">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border border-[#413F4C]/10 bg-white px-6 data-[state=open]:border-[#BC9F81]/40 transition-colors">
-                <AccordionTrigger className="text-left font-bold text-base text-[#413F4C] hover:text-[#BC9F81] transition-colors py-5">
+              <AccordionItem key={index} value={`item-${index}`} className="border border-[#413F4C]/10 bg-white px-6 data-[state=open]:border-[#020D2F]/40 transition-colors">
+                <AccordionTrigger className="text-left font-bold text-base text-[#413F4C] hover:text-[#020D2F] transition-colors py-5">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-[#413F4C]/70 font-medium leading-snug pb-5 text-sm">
@@ -141,7 +141,7 @@ export default function NriCornerPage() {
             ))}
           </Accordion>
 
-          <div className="mt-10 bg-gradient-to-br from-[#BC9F81] to-[#AD9266] p-8 text-center">
+          <div className="mt-10 bg-gradient-to-br from-[#020D2F] to-[#413F4C] p-8 text-center">
             <h3 className="text-2xl font-bold text-[#413F4C] mb-3">Need Personalized Assistance?</h3>
             <p className="text-[#413F4C]/70 font-medium mb-6 max-w-2xl mx-auto leading-snug text-sm">Our NRI desk is equipped to handle all your queries regarding FEMA guidelines, taxation, and property management.</p>
             <p className="text-lg font-bold text-[#413F4C] mb-1">nri.desk@silicon.com</p>
@@ -152,3 +152,5 @@ export default function NriCornerPage() {
     </main>
   );
 }
+
+

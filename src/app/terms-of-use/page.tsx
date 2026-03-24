@@ -34,12 +34,12 @@ export default function TermsOfUsePage() {
           <h1 className="text-white uppercase tracking-widest font-bold mb-4 drop-shadow-lg text-2xl md:text-4xl">
             Terms & Conditions
           </h1>
-          <div className="w-12 h-[2px] mx-auto bg-[#BC9F81]"></div>
+          <div className="w-12 h-[2px] mx-auto bg-[#020D2F]"></div>
         </div>
       </div>
 
       {/* Sub menu */}
-      <div className="w-full bg-white dark:bg-zinc-950 shadow-[0_2px_10px_rgba(0,0,0,0.04)] relative z-20">
+      <div className="w-full bg-white shadow-[0_2px_10px_rgba(0,0,0,0.04)] relative z-20">
         <div className="max-w-6xl mx-auto px-4 py-3">
           <ul className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 font-semibold uppercase tracking-wider">
             {legalLinks.map((link) => (
@@ -63,9 +63,9 @@ export default function TermsOfUsePage() {
 
         {/* Breadcrumbs */}
         <nav className="flex flex-wrap items-center text-sm text-[#413F4C]/60 font-medium mb-8">
-          <Link href="/" className="hover:text-[#BC9F81] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#020D2F] transition-colors">Home</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-[#BC9F81] font-bold">Terms & Conditions</span>
+          <span className="text-[#020D2F] font-bold">Terms & Conditions</span>
         </nav>
 
         {/* Content Section */}
@@ -77,7 +77,7 @@ export default function TermsOfUsePage() {
               <strong>Effective Date: March 10, 2026</strong>
             </p>
             <p className="mb-4">
-              Welcome to <a href="https://siliconrealestate.co.in" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 font-medium inline-flex items-center gap-1 border-b border-dotted border-primary/50 hover:border-primary transition-colors">https://siliconrealestate.co.in <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>, a website operated by <strong>Silicon Real Estate</strong>, including its affiliates and associated entities (collectively referred to as “Silicon Real Estate”, “we”, “our”, or “us”).
+              Welcome to <a href="https://siliconrealestate.co.in" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 font-medium inline-flex items-center gap-1 border-b border-dotted border-primary/50 hover:border-primary transition-colors">https://siliconrealestate.co.in <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></a>, a website operated by <strong>Silicon Real Estate</strong>, including its affiliates and associated entities (collectively referred to as €œSilicon Real Estate€, €œwe€, €œour€, or €œus€).
             </p>
             <p className="bg-black/5 p-4 border border-dotted border-black/10">
               By accessing or using this website, you agree to comply with these Terms and Conditions. If you do not agree with these terms, you should discontinue use of the website immediately.
@@ -264,3 +264,6 @@ export default function TermsOfUsePage() {
     </main>
   );
 }
+
+
+

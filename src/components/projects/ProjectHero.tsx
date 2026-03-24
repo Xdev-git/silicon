@@ -24,7 +24,7 @@ export function ProjectHero({ project }: { project: Project }) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
       </div>
 
-      <div className="container relative z-10 px-6 md:px-12 text-white">
+      <div className="container relative z-10 px-6 md:px-12 xl:pl-32 text-white">
         <div className="max-w-4xl">
           <div className="flex flex-col md:flex-row md:items-end gap-2 mb-4">
             <h1 className="font-serif tracking-tight leading-none drop-shadow-lg text-white">

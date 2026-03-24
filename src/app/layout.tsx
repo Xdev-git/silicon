@@ -7,7 +7,6 @@ import { Footer } from "@/components/layout/Footer";
 import { MobileMenu } from "@/components/layout/MobileMenu";
 import { FloatingElements } from "@/components/layout/FloatingElements";
 import { BannerPopup } from "@/components/layout/BannerPopup";
-import { ThemeProvider } from "@/components/theme-provider";
 
 const playfair = Playfair_Display({ 
   subsets: ["latin"], 
@@ -52,14 +51,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body className={`${fedra.variable} ${playfair.variable} font-sans antialiased selection:bg-primary selection:text-primary-foreground`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem={false}
-          disableTransitionOnChange
-        >
           <Navbar />
           {/* Padding bottom added on mobile to prevent content from hiding behind the sticky bottom bar */}
           <div className="min-h-screen pb-16 md:pb-0 flex flex-col">
@@ -71,7 +64,6 @@ export default function RootLayout({
           <BannerPopup />
           <Footer />
           <MobileMenu />
-        </ThemeProvider>
       </body>
     </html>
   );

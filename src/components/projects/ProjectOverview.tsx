@@ -61,25 +61,25 @@ export function ProjectOverview({ overview }: { overview: any }) {
                 </div>
               ))}
             </div>
-
-            {/* Navigation Arrows at bottom left, partially hanging out */}
-            {overview.images.length > 1 && (
-              <div className="absolute -left-6 bottom-16 flex flex-col gap-2 z-20">
-                <button
-                  onClick={handlePrev}
-                  className="w-10 h-10 bg-white shadow-md border border-zinc-200 text-accent flex items-center justify-center hover:bg-zinc-50 transition-all hover:scale-110"
-                >
-                  <ChevronLeft className="w-5 h-5" />
-                </button>
-                <button
-                  onClick={handleNext}
-                  className="w-10 h-10 bg-white shadow-md border border-zinc-200 text-accent flex items-center justify-center hover:bg-zinc-50 transition-all hover:scale-110"
-                >
-                  <ChevronRight className="w-5 h-5" />
-                </button>
-              </div>
-            )}
           </div>
+
+          {/* Navigation Arrows moved outside overflow-hidden */}
+          {overview.images.length > 1 && (
+            <div className="absolute -left-5 bottom-12 flex flex-col gap-2 z-20">
+              <button
+                onClick={handlePrev}
+                className="w-10 h-10 bg-white shadow-lg border border-zinc-200 text-accent flex items-center justify-center hover:bg-zinc-50 transition-all hover:scale-110"
+              >
+                <ChevronLeft className="w-5 h-5 rotate-0" />
+              </button>
+              <button
+                onClick={handleNext}
+                className="w-10 h-10 bg-white shadow-lg border border-zinc-200 text-accent flex items-center justify-center hover:bg-zinc-50 transition-all hover:scale-110"
+              >
+                <ChevronRight className="w-5 h-5 rotate-0" />
+              </button>
+            </div>
+          )}
         </div>
 
       </div>

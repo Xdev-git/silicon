@@ -39,7 +39,7 @@ export function EnquirePopup({ isOpen, onClose }: EnquirePopupProps) {
         {/* Close Button */}
         <button 
           onClick={onClose}
-          className="absolute top-4 right-4 z-20 w-8 h-8 flex items-center justify-center bg-black/10 hover:bg-black/20 dark:bg-white/10 dark:hover:bg-white/20 rounded-full transition-colors"
+          className="absolute top-4 right-4 z-20 w-8 h-8 flex items-center justify-center bg-black/10 hover:bg-black/20 rounded-full transition-colors"
           aria-label="Close form"
         >
           <X className="w-4 h-4" />
@@ -55,25 +55,25 @@ export function EnquirePopup({ isOpen, onClose }: EnquirePopupProps) {
           />
           <div className="relative z-10 p-12 h-full flex flex-col justify-between">
             <div>
-              <h3 className="text-3xl font-serif text-black mb-4">Discover Extraordinary Living</h3>
-              <p className="text-black/80 font-sans text-sm leading-relaxed">Let us guide you toward your ideal residential or commercial space in Central India's finest developments.</p>
+              <h3 className="text-3xl font-serif text-white mb-4">Discover Extraordinary Living</h3>
+              <p className="text-white/80 font-sans text-sm leading-relaxed">Let us guide you toward your ideal residential or commercial space in Central India's finest developments.</p>
             </div>
             
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-[1px] bg-black/30"></div>
-                <span className="text-black text-xs tracking-widest uppercase font-bold">Premium </span>
+                <div className="w-10 h-[1px] bg-white/30"></div>
+                <span className="text-white text-xs tracking-widest uppercase font-bold">Premium </span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-[1px] bg-black/30"></div>
-                <span className="text-black text-xs tracking-widest uppercase font-bold">Exclusive</span>
+                <div className="w-10 h-[1px] bg-white/30"></div>
+                <span className="text-white text-xs tracking-widest uppercase font-bold">Exclusive</span>
               </div>
             </div>
           </div>
         </div>
 
         {/* Right Side: Form */}
-        <div className="w-full md:w-3/5 p-8 md:p-12 pb-16 bg-white dark:bg-zinc-950"> {/* Increased bottom padding */}
+        <div className="w-full md:w-3/5 p-8 md:p-12 pb-16 bg-white"> {/* Increased bottom padding */}
           {isSuccess ? (
             <div className="h-full flex flex-col items-center justify-center text-center space-y-4 py-20 min-h-[300px]">
               <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-4">
@@ -166,7 +166,7 @@ export function EnquirePopup({ isOpen, onClose }: EnquirePopupProps) {
                 <button 
                   type="submit"
                   disabled={isSubmitting}
-                  className="group relative w-full bg-accent text-black font-bold py-4 uppercase tracking-widest text-[11px] overflow-hidden transition-all duration-300 mt-4 disabled:opacity-70 disabled:cursor-not-allowed hover-scale"
+                  className="group relative w-full bg-accent text-white font-bold py-4 uppercase tracking-widest text-[11px] overflow-hidden transition-all duration-300 mt-4 disabled:opacity-70 disabled:cursor-not-allowed hover-scale"
                 >
                   <span className="relative z-10 flex items-center justify-center gap-2">
                     {isSubmitting ? 'Submitting...' : 'Submit Inquiry'}
@@ -182,3 +182,5 @@ export function EnquirePopup({ isOpen, onClose }: EnquirePopupProps) {
     </div>
   );
 }
+
+

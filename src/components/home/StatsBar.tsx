@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef, useState } from "react";
 
@@ -79,10 +79,10 @@ export function StatsBar() {
   return (
     <section
       ref={sectionRef}
-      className="w-full bg-white dark:bg-zinc-950 border-y border-zinc-100 dark:border-zinc-800 py-10 md:py-12"
+      className="w-full bg-white border-y border-zinc-100 py-10 md:py-12"
     >
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="flex flex-col sm:flex-row items-center justify-center divide-y sm:divide-y-0 sm:divide-x divide-zinc-200 dark:divide-zinc-800">
+        <div className="flex flex-col sm:flex-row items-center justify-center divide-y sm:divide-y-0 sm:divide-x divide-zinc-200">
           {stats.map((stat, index) => (
             <StatItem key={index} value={stat.value} label={stat.label} started={started} />
           ))}
@@ -91,3 +91,4 @@ export function StatsBar() {
     </section>
   );
 }
+

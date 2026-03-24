@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageForm } from "@/components/legal/LegalPageForm";
 import { ChevronRight } from "lucide-react";
@@ -34,12 +34,12 @@ export default function RERADisclosurePage() {
           <h1 className="text-white uppercase tracking-widest font-bold mb-4 drop-shadow-lg text-2xl md:text-4xl">
             RERA Disclosure
           </h1>
-          <div className="w-12 h-[2px] mx-auto bg-[#BC9F81]"></div>
+          <div className="w-12 h-[2px] mx-auto bg-[#020D2F]"></div>
         </div>
       </div>
 
       {/* Sub menu */}
-      <div className="w-full bg-white dark:bg-zinc-950 shadow-[0_2px_10px_rgba(0,0,0,0.04)] relative z-20">
+      <div className="w-full bg-white shadow-[0_2px_10px_rgba(0,0,0,0.04)] relative z-20">
         <div className="max-w-6xl mx-auto px-4 py-3">
           <ul className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 font-semibold uppercase tracking-wider">
             {legalLinks.map((link) => (
@@ -63,9 +63,9 @@ export default function RERADisclosurePage() {
 
         {/* Breadcrumbs */}
         <nav className="flex flex-wrap items-center text-sm text-muted-foreground font-medium mb-8">
-          <Link href="/" className="hover:text-[#BC9F81] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#020D2F] transition-colors">Home</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-[#BC9F81] font-bold">RERA Disclosure</span>
+          <span className="text-[#020D2F] font-bold">RERA Disclosure</span>
         </nav>
 
         {/* Content Section */}
@@ -205,3 +205,6 @@ export default function RERADisclosurePage() {
     </main>
   );
 }
+
+
+

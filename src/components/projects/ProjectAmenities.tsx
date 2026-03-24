@@ -18,15 +18,15 @@ export function ProjectAmenities({ amenities, image }: { amenities: string[], im
         {/* Right Content */}
         <div className="space-y-12">
           <div>
-            <h3 className="text-accent mb-2 uppercase">Experience</h3>
-            <h2 className="text-accent uppercase relative inline-block">
-              AMENITIES
+            <h3 className="text-accent mb-2 uppercase tracking-widest text-xs font-bold">Lorem Ipsum</h3>
+            <h2 className="text-accent uppercase relative inline-block text-3xl font-bold">
+              LOREM IPSUM
               <div className="absolute -bottom-4 left-0 w-32 h-[1px] bg-accent"></div>
             </h2>
           </div>
           
           <div className="pt-4 space-y-4">
-            <p className="text-zinc-500 italic mb-8">Awaken your senses at every turn</p>
+            <p className="text-zinc-500 italic mb-8">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
               {amenities.map((amenity, idx) => (
                 <li key={idx} className="flex items-center gap-3 text-zinc-600 text-sm md:text-base font-medium">

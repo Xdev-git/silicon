@@ -22,8 +22,8 @@ export function ProjectActionButtons({ info }: { info: any }) {
                   key={idx}
                   className="flex items-center gap-4 text-left group hover-lift px-1 py-1"
                 >
-                  <div className="w-12 h-12 border border-zinc-700 flex items-center justify-center shrink-0 group-hover:border-accent transition-colors">
-                    <Icon className="w-5 h-5 text-zinc-300 group-hover:text-accent" strokeWidth={1.5} />
+                  <div className="w-12 h-12 border border-zinc-700 flex items-center justify-center shrink-0 group-hover:border-white transition-colors">
+                    <Icon className="w-5 h-5 text-zinc-300 group-hover:text-white" strokeWidth={1.5} />
                   </div>
                   <span className="text-[13px] leading-tight text-zinc-300 font-medium whitespace-pre-line group-hover:text-white transition-colors">
                     {action.label}
@@ -35,11 +35,11 @@ export function ProjectActionButtons({ info }: { info: any }) {
 
           {/* Right Side: Information Block */}
           <div className="space-y-4">
-            <h3 className="text-accent">{info.title}</h3>
+            <h3 className="text-white font-bold">{info.title}</h3>
             <p className="text-[13px] text-zinc-300 leading-relaxed font-light">
               {info.text}
             </p>
-            <p className="text-[13px] text-accent font-medium mt-6">
+            <p className="text-[13px] text-white/70 font-medium mt-6 uppercase tracking-widest">
               RERA No: {info.rera}
             </p>
           </div>

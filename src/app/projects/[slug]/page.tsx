@@ -11,18 +11,18 @@ import { ProjectStickyNav } from "@/components/projects/ProjectStickyNav";
 
 // Mock Data for the template
 const projectData = {
-  title: "SATTVA SPRINGS",
-  subtitle: "Magnificent Villas, Row Houses For Sophisticated Living",
-  description: "Next level luxury on Kanakapura Road at South Bangalore.",
+  title: "LOREM IPSUM",
+  subtitle: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   status: "NEW LAUNCHES",
   heroImage: "https://placehold.co/1920x1080/E6E9EE/9AA0A6.png?text=Project+Hero",
   overview: {
     acreage: "22",
     units: "66",
     typology: "4 BHK",
-    title: "ULTIMATE LIVING",
-    name: "SATTVA SPRINGS",
-    text: "Sattva Springs, where life transcends expectations, seamlessly blending comfort, privacy, connectivity, and a vibrant community. Nestled along Kanakapura Road, these meticulously crafted luxury residences offer a collection of 66 majestic Row Houses. Each designed to seamlessly blend comfort, privacy, and connectivity. Imagine a life that transcends expectations, where thoughtfully designed layouts and curated amenities transform your dreams into reality. With an ideal location in South Bengaluru close to Art of Living.",
+    title: "LOREM IPSUM",
+    name: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 
     images: [
       "https://placehold.co/1000x800/E6E9EE/9AA0A6.png?text=Interior+1",
@@ -31,21 +31,21 @@ const projectData = {
     ]
   },
   actionInfo: {
-    title: "Serenity is what you can expect",
-    text: "These charming row houses offer absolute privacy and are ideally located in a quiet neighbourhood on Kanakapura Main Road, a prime investment hub in south Bangalore. The locality seamlessly connects to all major routes and is close to the 'Art of Living' foundation which is a major landmark. The project is in a designated green zone, offering fresh air and tranquillity, you can spend a lifetime of serene moments here.",
+    title: "Lorem ipsum dolor sit amet",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     rera: "PRM/KA/RERA/1251/310/PR/240724/006948"
   },
   leisure: {
     title: "Designed for your",
-    subtitle: "ULTIMATE LEISURE & INFINITE COMFORT",
-    text: "Sattva Springs is a well-crafted project that defines fine living. Discover the epitome of luxury and comfort in this architectural marvel. The wide, spacious layouts, sweeping glass expanses, and an abundance of natural light ensure a life of unparalleled grandeur.",
+    subtitle: "LOREM IPSUM DOLOR SIT AMET",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: "https://placehold.co/1000x800/E6E9EE/9AA0A6.png?text=Leisure"
   },
   highlights: [
-    "LUXURIOUS 4 BHK VILLAS AND ROW HOUSES.",
-    "SPREAD OVER 22 ACRES OF LUSH GREENERY.",
-    "STATE OF THE ART 30,000 SQ.FT. CLUBHOUSE.",
-    "STRATEGIC LOCATION WITH EXCELLENT CONNECTIVITY."
+    "LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING.",
+    "SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE.",
+    "UT ENIM AD MINIM VENIAM QUIS NOSTRUD EXERCITATION.",
+    "ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSECUAT."
   ],
   amenities: [
     "Swimming Pool", "Clubhouse", "Gymnasium", "Landscaped Gardens", "Children's Play Area", "Tennis Court", "Jogging Track", "24/7 Security"

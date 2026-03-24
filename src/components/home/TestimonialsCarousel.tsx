@@ -45,9 +45,9 @@ export function TestimonialsCarousel() {
         {/* Section title */}
         <div className="text-center mb-16 md:mb-20">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-white mb-4">
-            What Our <span className="text-[#BC9F81]">Clients Think</span>
+            What Our <span className="text-white underline decoration-white/30 underline-offset-8">Clients Think</span>
           </h2>
-          <div className="w-10 h-[2px] bg-[#BC9F81] mx-auto mt-4"></div>
+          <div className="w-10 h-[2px] bg-white mx-auto mt-4"></div>
         </div>
 
         {/* Embla Carousel */}
@@ -63,7 +63,7 @@ export function TestimonialsCarousel() {
                     {/* Stars */}
                     <div className="flex gap-1 mb-6">
                       {[1, 2, 3, 4, 5].map((star) => (
-                        <Star key={star} className="w-4 h-4 text-[#BC9F81] fill-[#BC9F81]" />
+                        <Star key={star} className="w-4 h-4 text-white fill-white" />
                       ))}
                     </div>
                     {/* Quote text */}
@@ -74,14 +74,14 @@ export function TestimonialsCarousel() {
 
                   {/* Attribution */}
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-[#413F4C] flex items-center justify-center text-[#BC9F81] font-bold text-lg border border-[#BC9F81]/30">
+                    <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white font-bold text-lg border border-white/30">
                       {t.name.charAt(0)}
                     </div>
                     <div>
                       <p className="text-white font-bold tracking-wide">
                         {t.name}
                       </p>
-                      <p className="text-[#BC9F81] text-xs uppercase tracking-widest mt-1">Client</p>
+                      <p className="text-white/60 text-xs uppercase tracking-widest mt-1">Client</p>
                     </div>
                   </div>
                 </div>
@@ -93,3 +93,5 @@ export function TestimonialsCarousel() {
     </section>
   );
 }
+
+

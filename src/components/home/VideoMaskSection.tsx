@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
@@ -43,12 +43,12 @@ export function VideoMaskSection() {
   return (
     <section
       ref={containerRef}
-      className="relative isolate w-full bg-white dark:bg-black overflow-hidden"
+      className="relative isolate w-full bg-white overflow-hidden"
     >
       {/* 
         1. Background Video Layer 
       */}
-      <div className="absolute inset-0 w-full h-full -z-10 bg-zinc-200 dark:bg-zinc-800">
+      <div className="absolute inset-0 w-full h-full -z-10 bg-zinc-200">
         <video
           ref={videoRef}
           autoPlay
@@ -73,10 +73,10 @@ export function VideoMaskSection() {
       {/* 
         2. Masking Layer
       */}
-      <div className="relative w-full bg-white dark:bg-black py-1 md:py-5 flex flex-col items-center justify-center mix-blend-screen dark:mix-blend-multiply pointer-events-none z-10">
+      <div className="relative w-full bg-white py-1 md:py-5 flex flex-col items-center justify-center mix-blend-screen pointer-events-none z-10">
         <div ref={textRef} className="text-center flex flex-col items-center w-full px-4 leading-none">
           <h2
-            className="font-black tracking-[0.02em] uppercase text-black dark:text-white"
+            className="font-black tracking-[0.02em] uppercase text-black"
             style={{
               fontSize: "clamp(4rem, 18vw, 15rem)",
               lineHeight: "0.85",
@@ -84,7 +84,7 @@ export function VideoMaskSection() {
           >
             SILICON
           </h2>
-          <p className="text-3xl md:text-5xl font-black tracking-[0.2em] text-black dark:text-white uppercase mt-4 md:mt-8">
+          <p className="text-3xl md:text-5xl font-black tracking-[0.2em] text-black uppercase mt-4 md:mt-8">
             Developing Dreams.
           </p>
         </div>
@@ -92,3 +92,4 @@ export function VideoMaskSection() {
     </section>
   );
 }
+

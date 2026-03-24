@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 
 export function ProjectFloorPlans({ floorPlans }: { floorPlans: { title: string, image: string }[] }) {
   return (
@@ -47,7 +47,7 @@ export function ProjectFloorPlans({ floorPlans }: { floorPlans: { title: string,
               className="object-cover"
             />
             <div className="absolute bottom-6 left-6">
-              <button className="bg-accent text-black px-6 py-2 text-sm font-bold tracking-wider hover:bg-[#c3a06a] transition-all hover:scale-105">
+              <button className="bg-accent text-white px-6 py-2 text-sm font-bold tracking-wider hover:bg-[#c3a06a] transition-all hover:scale-105">
                 View All
               </button>
             </div>
@@ -59,3 +59,4 @@ export function ProjectFloorPlans({ floorPlans }: { floorPlans: { title: string,
     </div>
   );
 }
+

@@ -12,8 +12,8 @@ export function SideMenu({ open, setOpen }: { open: boolean, setOpen: (open: boo
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetContent
         side="right"
-        className="w-[85vw] sm:w-[400px] p-0 flex flex-col text-[#413F4C] border-l-0 shadow-2xl [&>button]:border-0 [&>button]:ring-0 [&>button]:outline-none [&>button]:opacity-100 [&>button]:text-[#413F4C] [&>button]:z-[60] overflow-hidden z-[100]"
-        style={{ background: 'linear-gradient(to bottom, #BC9F81 0%, #BC9F81 35%, #AD9266 100%)' }}
+        className="w-[85vw] sm:w-[400px] p-0 flex flex-col text-white border-l-0 shadow-2xl [&>button]:border-0 [&>button]:ring-0 [&>button]:outline-none [&>button]:opacity-100 [&>button]:text-white [&>button]:z-[60] overflow-hidden z-[100]"
+        style={{ background: 'linear-gradient(to bottom, #020D2F 0%, #020D2F 35%, #413F4C 100%)' }}
       >
         <SheetTitle className="sr-only">Menu</SheetTitle>
         <SheetDescription className="sr-only">Main Navigation Side Menu</SheetDescription>
@@ -43,7 +43,7 @@ export function SideMenu({ open, setOpen }: { open: boolean, setOpen: (open: boo
             <SideSection label="Our Journey" />
             <SideLink href="/about" setOpen={setOpen} pathname={pathname}>About Silicon</SideLink>
             <SideLink href="/our-impact" setOpen={setOpen} pathname={pathname}>Our Impact</SideLink>
-            <SideLink href="/about/chairman-message" setOpen={setOpen} pathname={pathname}>Chairman's Message</SideLink>
+            <SideLink href="/about/chairmans-message" setOpen={setOpen} pathname={pathname}>Chairman's Message</SideLink>
             <SideLink href="/career" setOpen={setOpen} pathname={pathname}>Career</SideLink>
 
             {/* Resources */}
@@ -71,8 +71,8 @@ export function SideMenu({ open, setOpen }: { open: boolean, setOpen: (open: boo
 function SideSection({ label }: { label: string }) {
   return (
     <div className="px-8 pt-7 pb-2">
-      <p className="text-[18px] font-bold uppercase tracking-widest text-[#413F4C]/70">{label}</p>
-      <div className="w-10 h-[2px] bg-black/20 mt-3 mb-6"></div>
+      <p className="text-[18px] font-bold uppercase tracking-widest text-white/70">{label}</p>
+      <div className="w-10 h-[2px] bg-white/20 mt-3 mb-6"></div>
     </div>
   );
 }
@@ -94,13 +94,15 @@ function SideLink({
     <Link
       href={href}
       onClick={() => setOpen(false)}
-      className={`block w-full px-8 py-4 border-b border-[#413F4C]/10 font-sans text-base text-md font-medium tracking-wide transition-all duration-300 ${isActive
-        ? "bg-[#413F4C]/5 text-[#413F4C] font-bold"
-        : "text-[#413F4C]/90 hover:bg-[#413F4C]/10 hover:text-[#413F4C]"
+      className={`block w-full px-8 py-4 border-b border-white/10 font-sans text-base text-md font-medium tracking-wide transition-all duration-300 ${isActive
+        ? "bg-white/10 text-white font-bold"
+        : "text-white/90 hover:bg-white/5 hover:text-white"
         }`}
     >
       {children}
     </Link>
   );
 }
+
+
 

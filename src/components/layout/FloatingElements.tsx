@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import { Facebook, Instagram, Twitter, Youtube, Linkedin, X as CloseIcon, ChevronUp, MessageSquare } from "lucide-react";
@@ -120,15 +120,15 @@ export function FloatingElements() {
       {!isProjectPage && (
         <div className="fixed left-8 top-1/4 z-50 flex flex-col items-center hidden md:flex">
           {/* Leading vertical line */}
-          <div className="w-[1px] h-32 bg-zinc-900/20 dark:bg-white/50 mb-6 transition-colors duration-300"></div>
-          <div className="flex flex-col space-y-5 text-zinc-500 dark:text-white">
-            <Link href="#" className="hover:text-accent dark:hover:text-primary transition-colors duration-300"><Facebook className="w-[18px] h-[18px] fill-current" /></Link>
-            <Link href="#" className="hover:text-accent dark:hover:text-primary transition-colors duration-300"><Instagram className="w-[18px] h-[18px]" /></Link>
-            <Link href="#" className="hover:text-accent dark:hover:text-primary transition-colors duration-300">
+          <div className="w-[1px] h-32 bg-zinc-900/20 mb-6 transition-colors duration-300"></div>
+          <div className="flex flex-col space-y-5 text-zinc-500">
+            <Link href="#" className="hover:text-accent transition-colors duration-300"><Facebook className="w-[18px] h-[18px] fill-current" /></Link>
+            <Link href="#" className="hover:text-accent transition-colors duration-300"><Instagram className="w-[18px] h-[18px]" /></Link>
+            <Link href="#" className="hover:text-accent transition-colors duration-300">
               <svg viewBox="0 0 24 24" aria-hidden="true" className="w-[18px] h-[18px] fill-current"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.008 4.04H5.078z"></path></g></svg>
             </Link>
-            <Link href="#" className="hover:text-accent dark:hover:text-primary transition-colors duration-300"><Youtube className="w-[18px] h-[18px]" /></Link>
-            <Link href="#" className="hover:text-accent dark:hover:text-primary transition-colors duration-300"><Linkedin className="w-[18px] h-[18px] fill-current" /></Link>
+            <Link href="#" className="hover:text-accent transition-colors duration-300"><Youtube className="w-[18px] h-[18px]" /></Link>
+            <Link href="#" className="hover:text-accent transition-colors duration-300"><Linkedin className="w-[18px] h-[18px] fill-current" /></Link>
           </div>
         </div>
       )}
@@ -137,11 +137,11 @@ export function FloatingElements() {
       <div className="fixed right-0 top-1/2 -translate-y-1/2 z-50 hidden md:block select-none">
         <button
           onClick={() => setIsEnquireOpen(true)}
-          className="group relative bg-gradient-to-t from-[#66646F] to-[#413F4C] text-[#BC9F81] group-hover:text-[#413F4C] hover:text-[#413F4C] font-bold py-5 px-3 rounded-none flex items-center justify-center gap-3 tracking-widest text-sm uppercase overflow-hidden transition-all duration-300 hover:shadow-xl"
+          className="group relative bg-[#413F4C] text-white/90 group-hover:text-white hover:text-white font-bold py-5 px-3 rounded-none flex items-center justify-center gap-3 tracking-widest text-sm uppercase overflow-hidden transition-all duration-300 hover:shadow-xl"
           style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
         >
           {/* Smooth hover gradient layer */}
-          <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-[#BC9F81] to-[#AD9266] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out z-0"></div>
+          <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-[#020D2F] to-[#413F4C] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out z-0"></div>
 
           <div className="relative z-10 flex items-center gap-3">
             <span>Enquire Now</span>
@@ -156,7 +156,7 @@ export function FloatingElements() {
           <div className="relative group">
             <button
               onClick={() => setShowPopup(false)}
-              className="absolute -top-2 -right-2 bg-black dark:bg-white text-white dark:text-black rounded-full p-1 z-10 shadow-md hover:scale-110 transition-transform"
+              className="absolute -top-2 -right-2 bg-black text-white rounded-full p-1 z-10 shadow-md hover:scale-110 transition-transform"
             >
               <CloseIcon className="w-3 h-3" />
             </button>
@@ -172,7 +172,7 @@ export function FloatingElements() {
 
         <button
           onClick={scrollToTop}
-          className={`bg-black dark:bg-white text-white dark:text-black rounded-none p-3 shadow-xl hover:-translate-y-1 transition-all group relative
+          className={`bg-black text-white rounded-none p-3 shadow-xl hover:-translate-y-1 transition-all group relative
             ${scrolled ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}
           `}
           aria-label="Back to top"
@@ -188,3 +188,6 @@ export function FloatingElements() {
     </>
   );
 }
+
+
+

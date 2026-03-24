@@ -29,11 +29,11 @@ export function BlogSection() {
   ];
 
   return (
-    <section className="py-24 bg-zinc-50 dark:bg-zinc-900 border-t border-zinc-200 dark:border-zinc-800">
+    <section className="py-24 bg-zinc-50 border-t border-zinc-200">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="tracking-tight mb-4 text-zinc-900 dark:text-white">Latest Insights</h2>
-          <p className="text-zinc-500 dark:text-zinc-400 max-w-2xl mx-auto">
+          <h2 className="tracking-tight mb-4 text-zinc-900">Latest Insights</h2>
+          <p className="text-zinc-500 max-w-2xl mx-auto">
             Stay updated with the latest news, trends, and perspectives from our experts.
           </p>
         </div>
@@ -53,10 +53,10 @@ export function BlogSection() {
                 <span>&bull;</span>
                 <span>{article.date}</span>
               </div>
-              <h3 className="text-xl font-bold mb-3 text-zinc-900 dark:text-white group-hover:text-primary transition-colors line-clamp-2">
+              <h3 className="text-xl font-bold mb-3 text-zinc-900 group-hover:text-primary transition-colors line-clamp-2">
                 {article.title}
               </h3>
-              <p className="text-zinc-600 dark:text-zinc-400 line-clamp-3">
+              <p className="text-zinc-600 line-clamp-3">
                 {article.excerpt}
               </p>
             </article>
@@ -64,7 +64,7 @@ export function BlogSection() {
         </div>
 
         <div className="mt-16 text-center">
-          <Link href="/blog" className="group relative inline-flex items-center justify-center gap-3 bg-white text-black hover:text-black font-bold py-4 px-10 overflow-hidden border border-zinc-200 tracking-widest uppercase transition-all duration-300 hover:scale-[1.02]">
+          <Link href="/blog" className="group relative inline-flex items-center justify-center gap-3 bg-white text-black hover:text-white font-bold py-4 px-10 overflow-hidden border border-zinc-200 tracking-widest uppercase transition-all duration-300 hover:scale-[1.02]">
             <span className="relative z-10 transition-colors duration-300">Read All Articles</span>
             <ArrowRight className="w-4 h-4 relative z-10 group-hover:translate-x-1 transition-transform duration-300" />
             <div className="absolute inset-0 h-full w-full bg-accent scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300 ease-out"></div>
@@ -74,3 +74,4 @@ export function BlogSection() {
     </section>
   );
 }
+

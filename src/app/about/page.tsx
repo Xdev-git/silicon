@@ -56,14 +56,14 @@ export default function AboutPage() {
         breadcrumbs={[{ label: "About" }]}
       />
 
-      {/* ── About Us: text + stats ────────────────────────────── */}
+      {/* ”€”€ About Us: text + stats ”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ */}
       <section className="py-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
         {/* Eye-brow */}
-        <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">
+        <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">
           About Silicon
         </p>
         <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#413F4C] mb-4">
-          Indore's Most <span className="text-[#BC9F81]">Trusted Developer</span>
+          Indore's Most <span className="text-[#020D2F]">Trusted Developer</span>
         </h2>
         <div className="w-10 h-[2px] bg-[#413F4C] mb-12"></div>
 
@@ -92,8 +92,8 @@ export default function AboutPage() {
           {/* Right: stats grid */}
           <div className="grid grid-cols-2 gap-x-12 gap-y-10 pt-4 lg:pt-8">
             {stats.map((s) => (
-              <div key={s.label} className="border-l-2 border-[#BC9F81] pl-6">
-                <p className="text-5xl md:text-6xl font-bold text-[#BC9F81]">
+              <div key={s.label} className="border-l-2 border-[#020D2F] pl-6">
+                <p className="text-5xl md:text-6xl font-bold text-[#020D2F]">
                   {s.value}
                 </p>
                 <p className="mt-2 text-sm font-bold uppercase tracking-widest text-[#413F4C]/70">{s.label}</p>
@@ -103,20 +103,20 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── OUR STORY tagline ────────────────────────────────── */}
+      {/* ”€”€ OUR STORY tagline ”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ */}
       <section className="py-20 bg-[#F3EEEB]">
         <div className="max-w-3xl mx-auto px-6 md:px-12 text-center">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-4">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-4">
             Our Story
           </p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#413F4C] mb-4">
-            Raising Expectations for <span className="text-[#BC9F81]">Real Estate</span>
+            Raising Expectations for <span className="text-[#020D2F]">Real Estate</span>
           </h2>
           <div className="w-10 h-[2px] bg-[#413F4C] mx-auto"></div>
         </div>
       </section>
 
-      {/* ── Alternating pillars ───────────────────────────────── */}
+      {/* ”€”€ Alternating pillars ”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€”€ */}
       <section className="pb-28 bg-white">
         {pillars.map((pillar, i) => (
           <div
@@ -143,7 +143,7 @@ export default function AboutPage() {
                 pillar.flip ? "md:order-1" : "md:order-2"
               }`}
             >
-              <p className="text-xs font-bold uppercase tracking-widest text-[#BC9F81] mb-3">Our Pillars</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-[#020D2F] mb-3">Our Pillars</p>
               <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-[#413F4C] mb-4">
                 {pillar.title}
               </h3>
@@ -156,3 +156,5 @@ export default function AboutPage() {
     </main>
   );
 }
+
+
