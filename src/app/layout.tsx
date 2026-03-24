@@ -56,8 +56,8 @@ export default function RootLayout({
       <body className={`${fedra.variable} ${playfair.variable} font-sans antialiased selection:bg-primary selection:text-primary-foreground`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light"
+          enableSystem={false}
           disableTransitionOnChange
         >
           <Navbar />
