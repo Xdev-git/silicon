@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-fedra), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  /* Core Palette */
+  --color-white: #FFFFFF;
+  --color-grey: #F5F5F5;
+  --color-light: #F3EEEB;
+  --color-dark: #413F4C;
+  --color-black: #030202;
+  --color-accent: #BC9F81;
+  --color-accent-dark: #AD9266;
+
+  /* Semantic Theme Mapping */
+  --color-primary: var(--color-accent);
+  --color-bg-primary: var(--color-light);
+  --color-bg-surface: var(--color-white);
+  --color-bg-card: var(--color-grey);
+  --color-text-primary: var(--color-black);
+  --color-text-secondary: var(--color-dark);
+  --color-border-color: var(--color-grey);
+  --color-accent-light: var(--color-accent-dark);
+
+  /* Standardized Transitions */
+  --transition-standard: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-text-primary;
+  }
+  h1 { @apply text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-text-primary tracking-tight; }
+  h2 { @apply text-3xl md:text-5xl font-serif font-bold text-text-primary tracking-tight; }
+  h3 { @apply text-2xl md:text-3xl font-serif font-bold text-text-primary; }
+  p { @apply leading-snug; }
+}
+
+@layer utilities {
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+  .hover-scale {
+    @apply transition-all duration-300 hover:scale-[1.02];
+  }
+  .bg-gold {
+    @apply bg-accent text-black;
+  }
+}
+
+@custom-variant dark (&:is(.dark *));
